@@ -25,7 +25,7 @@ class GroupBuy extends React.Component{
                 speed={1000}
                 className="groupbuy-items"
                 width={1200}
-                height={240}
+                height={294}
                 
                 >
                     <SwiperSlide className="swiper-slider-box">
