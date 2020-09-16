@@ -21,23 +21,23 @@ class SectionBanner extends React.Component{
                         speed={1000}
                         >
                             <SwiperSlide className="swiper-slider-box">
-                                <img src=""></img>
+                                <a href="#"><img src=""></img></a>
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slider-box">
-                                <img src=""></img>
+                                <a href="#"><img src=""></img></a>
                             </SwiperSlide>
                             <SwiperSlide className="swiper-slider-box">
-                                <img src=""></img>
+                                <a href="#"><img src=""></img></a>
                             </SwiperSlide>
                         </Swiper>
                     </div>
                     <div className="banner1-box">
-                        <div className="banner1-top">
+                        <a href="" className="banner1-top">
                             <img src="" />
-                        </div>
-                        <div className="banner1-down">
+                        </a>
+                        <a href="" className="banner1-down">
                             <img src="" />
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div className="buy-items">

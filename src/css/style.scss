@@ -332,28 +332,29 @@
         width: 796px;
         height: 235px;
         img{
-            width: 100%;
+            width: 796px;
             height: 235px;
+            z-index:99;
         }
     }
 }
 .banner1-box{
     margin:0 0 0 5px;
     .banner1-top{
-        width: 398.33px;
+        width: 398px;
         height: 115px;
         margin:0 0 2.5px 0;
         img{
-            width: 100%;
+            width: 398px;
             height: 115px;
         }
     }
     .banner1-down{
-        width: 398.33px;
+        width: 398px;
         height: 115px;
         margin:2.5px 0 0 0;
         img{
-            width: 100%;
+            width: 398px;
             height: 115px;
         }
     }
@@ -466,6 +467,9 @@
         margin:10px 0;
     }
 }
+.sectionclass-column:hover{
+    box-shadow:0px 0px 1px #000;
+}
 
 // ------------- sectiontimeout ---------------
 
@@ -487,6 +491,9 @@
         .sectiontimeout-sales{
             display:flex;
 
+            .saletime-text{
+                color:red;
+            }
             .saletime-box{
                 display:flex;
                 div{
@@ -498,28 +505,110 @@
                 }
             }
         }
+        a{
+            color:red;
+        }
     }
     
     .sectiontimeout-items{
         background:#fff;
 
         .swiper-slider-box{
-            width: 200px;
-            height: 240px;
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            
+            a{
+                width: 200px;
+                height: 240px;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
 
             .sectiontimeout-img{
                 width: 173px;
                 height: 173px;
-                border:1px solid orange;
+                img{
+                    width: 100%;
+                    height: 173px;
+                }
             }
         }
     }
 }
 
 .sectiontimeout-price{
-    text-align: center;
+    color:orangered;
+}
+
+
+// --------------- GroupBuy -------------------
+
+.groupbuy{
+    width:1200px;
+    height: 321px;
+    margin:auto;
+    padding:20px 0 0 0;
+
+    .groupbuy-header{
+        width: 100%;
+        height: 61px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        padding:0 20px;
+        
+
+        .groupbuy-sales{
+
+            .saletime-box{
+                display:flex;
+                div{
+                    color:#fff;
+                    background: #000;
+                    margin:0 5px;
+                    padding:0 5px;
+                    border-radius:5px;
+                }
+            }
+        }
+        a{
+            color:red;
+        }
+    }
+    
+    .groupbuy-items{
+        background:#fff;
+
+        .swiper-slider-box{
+            
+            a{
+                width: 200px;
+                height: 254px;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+            }
+
+            .groupbuy-img{
+                width: 170px;
+                height: 170px;
+                img{
+                    width: 100%;
+                    height: 170px;
+                }
+            }
+        }
+    }
+}
+
+.groupbuy-o-price{
+    font-size:14px;
+    text-decoration:line-through;
+}
+.groupbuy-s-price{
+    color:orangered;
 }

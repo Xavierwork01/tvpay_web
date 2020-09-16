@@ -4,6 +4,7 @@ import SectionBanner from '../component/SectionBanner'
 import PackageBanner from '../component/PackageBanner'
 import SectionClass from '../component/SectionClass'
 import SectionTimeout from '../component/SectionTimeout'
+import GroupBuy from '../component/GroupBuy'
 import Footer from '../commons/Footer'
 
 
@@ -18,6 +19,7 @@ class Home extends React.Component{
                 <PackageBanner/>
                 <SectionClass/>
                 <SectionTimeout/>
+                <GroupBuy/>
             </div>
             <Footer/>
             </>

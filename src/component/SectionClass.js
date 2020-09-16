@@ -13,88 +13,88 @@ class SectionClass extends React.Component{
                     <div className="sectionclass-header">分類</div>
                     <div className="sectionclass-items">
                         <div className="sectionclass-item-top">
-                            <div className="sectionclass-column">
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
+                            </a>
                         </div>
                         <div className="sectionclass-item-down">
-                        <div className="sectionclass-column">
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
-                            <div className="sectionclass-column">
+                            </a>
+                            <a className="sectionclass-column">
                                 <div className="sectionclass-img"><img/></div>
                                 <div className="sectionclass-name">item</div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
