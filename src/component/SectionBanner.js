@@ -1,7 +1,10 @@
 import React from 'react'
+import { Swiper , SwiperSlide } from 'swiper/react'
+import SwiperCode,{ Navigation , Pagination , Autoplay } from 'swiper'
+import 'swiper/swiper-bundle.css'
 
 
-
+SwiperCode.use([Navigation , Pagination ,Autoplay])
 
 class SectionBanner extends React.Component{
 
@@ -11,7 +14,22 @@ class SectionBanner extends React.Component{
             <div className="section">
                 <div className="banner1-content">
                     <div className="slider-banner1">
-                        <img className="" src=""></img>
+                        <Swiper
+                        navigation
+                        pagination
+                        autoplay={{delay:3000}}
+                        speed={1000}
+                        >
+                            <SwiperSlide className="swiper-slider-box">
+                                <img src=""></img>
+                            </SwiperSlide>
+                            <SwiperSlide className="swiper-slider-box">
+                                <img src=""></img>
+                            </SwiperSlide>
+                            <SwiperSlide className="swiper-slider-box">
+                                <img src=""></img>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                     <div className="banner1-box">
                         <div className="banner1-top">

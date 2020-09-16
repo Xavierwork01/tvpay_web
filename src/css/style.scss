@@ -305,7 +305,7 @@
     }
 }
 
-//----------------- section ---------------
+//----------------- sectionbanner ---------------
 .home-page{
     width:100%;
     // height: 100vh;
@@ -325,12 +325,16 @@
     display:flex;
 }
 .slider-banner1{
-    width: 796.66px;
+    width: 796px;
     height: 235px;
     
-    img{
-        width:100%;
+    .swiper-slider-box{
+        width: 796px;
         height: 235px;
+        img{
+            width: 100%;
+            height: 235px;
+        }
     }
 }
 .banner1-box{
@@ -482,14 +486,24 @@
 
         .sectiontimeout-sales{
             display:flex;
+
+            .saletime-box{
+                display:flex;
+                div{
+                    color:#fff;
+                    background: #000;
+                    margin:0 5px;
+                    padding:0 5px;
+                    border-radius:5px;
+                }
+            }
         }
     }
+    
     .sectiontimeout-items{
-        width: 100%;
-        height: 240px;
-        display:flex;
-        background: #fff;
-        .sectiontimeout-box{
+        background:#fff;
+
+        .swiper-slider-box{
             width: 200px;
             height: 240px;
             display:flex;
@@ -500,11 +514,7 @@
             .sectiontimeout-img{
                 width: 173px;
                 height: 173px;
-                
-                img{
-                    width: 100%;
-                    height: 173px;
-                }
+                border:1px solid orange;
             }
         }
     }
