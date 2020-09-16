@@ -53,17 +53,15 @@ class Footer extends React.Component{
                 </div>
                 <hr/>    
                 <div className="footer-down">
-                    <div className="footer-down-box">
-                        <div>© 2020 TvPay. 版權所有。</div>
-                        <div className="footer-language-box">
-                            <div>國家語言 : </div>
-                            <div className="footer-language-link"><a href="#">語言</a></div>
-                            <div className="footer-language-link"><a href="#">語言</a></div>
-                            <div className="footer-language-link"><a href="#">語言</a></div>
-                            <div className="footer-language-link"><a href="#">語言</a></div>
-                            <div className="footer-language-link"><a href="#">語言</a></div>
-                            <div className="footer-language-link"><a href="#">語言</a></div>
-                        </div>
+                    <p>© 2020 TvPay. 版權所有。</p>
+                    <div className="footer-language-box">
+                        <div>國家語言 : </div>
+                        <div className="footer-language-link"><a href="#">語言</a></div>
+                        <div className="footer-language-link"><a href="#">語言</a></div>
+                        <div className="footer-language-link"><a href="#">語言</a></div>
+                        <div className="footer-language-link"><a href="#">語言</a></div>
+                        <div className="footer-language-link"><a href="#">語言</a></div>
+                        <div className="footer-language-link"><a href="#">語言</a></div>
                     </div>
                 </div>
             </div>

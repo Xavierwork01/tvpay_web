@@ -138,8 +138,8 @@
 
 .footer{
     width:100%;
-    margin:auto;
     height: 468px;
+    padding:0;
     hr{
         margin:0 auto;
         background:#000;
@@ -153,39 +153,36 @@
         margin:auto;
         .footer-items-box{
             width: 240px;
+            padding:5px;
             div{
                 margin:40px 0 20px 0;
             }
         }
     }
     .footer-down{
-        width:100%;
+        width:1200px;
         margin:auto;
         height: 101px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .footer-down-box{
-            width:1200px;
+        padding:5px;
+        
+        .footer-language-box{
             display:flex;
             align-items: center;
-            margin:auto;
-            justify-content: space-between;
-            .footer-language-box{
+            .footer-language-link{
+                border-right:1px solid #000;
+                height: 16px;
+                padding:0 5px;
                 display:flex;
                 align-items: center;
-                .footer-language-link{
-                    border-right:1px solid #000;
-                    height: 16px;
-                    padding:0 5px;
-                    display:flex;
-                    align-items: center;
-                    a{
-                        font-size: .875rem;
-                    }
+                a{
+                    font-size: .875rem;
                 }
             }
         }
+        
     }
 
 }
@@ -197,6 +194,9 @@
     width: 100%;
     height: 119px;
     background: orangered;
+    position:fixed;
+    top:0;
+    z-index:100;
 }
 .header{
     max-width:1200px;
@@ -312,12 +312,13 @@
     flex-wrap:wrap;
     justify-content: center;
     background:#dedede;
+    
 }
 .section {
     width: 100%;
     height: 383px;
     background:#fff;
-    // margin:auto;
+    margin:120px 0 0 0;
     padding:30px 0 0 0;
 }
 .banner1-content{
@@ -420,27 +421,27 @@
 
 // --------------------- sectionclass -----------------------
 
-.sectionclass{
+.classbanner{
     width: 100%;
     height: 382px;
-    .sectionclass-box{
+    .classbanner-box{
         width: 1200px;
         padding:20px 0 0 0;
         margin:auto;
         
-        .sectionclass-header{
+        .classbanner-header{
             height: 61px;
             padding:0 20px;
             line-height: 61px;
             background: #fff;
         }
-        .sectionclass-items{
+        .classbanner-items{
             height: 300px;
             background: #fff;
-            .sectionclass-item-top{
+            .classbanner-item-top{
                 display:flex;
             }
-            .sectionclass-item-down{
+            .classbanner-item-down{
                 display:flex;
             }
         }
@@ -448,7 +449,7 @@
 }
 
 
-.sectionclass-column{
+.classbanner-column{
     width: 120px;
     height: 150px;
     display: flex;
@@ -457,7 +458,7 @@
     align-items: center;
     margin:0;
     border:0.5px solid #dedede;
-    .sectionclass-img{
+    .classbanner-img{
         width: 83px;
         height: 76px;
         img{
@@ -465,11 +466,11 @@
             height: 100%;
         }
     }
-    .sectionclass-name{
+    .classbanner-name{
         margin:10px 0;
     }
 }
-.sectionclass-column:hover{
+.classbanner-column:hover{
     box-shadow:0px 0px 1px #000;
 }
 
@@ -641,7 +642,7 @@
 .carouselbanner{
     width: 1200px;
     height: 503px;
-    border:1px solid red;
+    
     display:flex;
     flex-wrap:wrap;
     margin:20px 0 0 0;
@@ -659,10 +660,12 @@
         width: 390px;
         height: 472px;
         padding:10px 0 10px 10px;
+        background: #fff;
     }
     .carouselbanner-slider{
         width: 800px;
         height: 472px;
+        background: #fff;
         .carouselbanner-slider-box{
             width: 180px;
             height: 216px;
@@ -670,4 +673,100 @@
         }
     }
     
+}
+
+// ------------------ MostBanner -------------------
+
+.mostbanner{
+    padding:20px 0 0 0;
+    width: 1200px;
+    height: 181px;
+    .mostbanner-header{
+        width: 100%;
+        height: 61px;
+        line-height: 61px;
+        padding:0 20px;
+        background:#fff;
+    }
+    .mostbanner-content{
+        width: 100%;
+        height: 100px;
+        display:flex;
+        background: #fff;
+        .mostbanner-box{
+            width: 240px;
+            height: 100px;
+            display:flex;
+            padding:0 10px 0 0;
+            border:0.5px solid #dedede;
+            
+            .mostbanner-text{
+                width: 129.5px;
+                height: 99.5px;
+                .mostbanner-text1{
+                    padding:20px 10px 20px 20px;
+                }
+            }
+            .mostbanner-img{
+                width: 99.5px;
+                height: 99.5px;
+                img{
+                    width: 100%;
+                    height: 99.5px;
+                }
+            }
+        }
+    }
+}
+
+
+// ---------------- hotbanner ------------------
+
+.hotbanner{
+    width: 1200px;
+    height: 406px;
+    padding:20px 0 0 0;
+
+    .hotbanner-header{
+        height: 61px;
+        padding:0 20px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+        a{
+            color:red;
+        }
+    }
+    .hotbanner-content{
+        
+        background: #fff;
+
+        a{
+            
+            border:0.5px solid red;
+            width: 399.5px;
+            height: 324px;
+            padding:30px 30px 25px;
+            background: blue;
+
+                .hotbanner-picture{
+                    width:338px;
+                    height: 224px;
+                }
+            
+        }
+    }
+}
+
+// ------------------- NewDayBanner --------------------
+
+.newdaybanner-nav{
+    width: 1200px;
+    height: 61px;
+    background: #fff;
+}
+.newdaybanner-products{
+    width: 1200px;
+    height: 1200px;
 }

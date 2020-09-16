@@ -33,24 +33,13 @@ class CarouselBanner extends React.Component{
                     slidesPerColumnFill={2}
                     className="carouselbanner-slider"
                     >
-                        <SwiperSlide className="carouselbanner-slider-box">
-                            <a href="#">
+                        <SwiperSlide >
+                            <a href="#" className="carouselbanner-slider-box">
                                 <div></div>
                                 <div>折扣碼</div>
                             </a>
                         </SwiperSlide>
-                        <SwiperSlide className="carouselbanner-slider-box">
-                            <a href="#">
-                                <div></div>
-                                <div>折扣碼</div>
-                            </a>
-                        </SwiperSlide>
-                        <SwiperSlide className="carouselbanner-slider-box">
-                            <a href="#">
-                                <div></div>
-                                <div>折扣碼</div>
-                            </a>
-                        </SwiperSlide>
+                        
                     </Swiper>
                 </div>
             </>
