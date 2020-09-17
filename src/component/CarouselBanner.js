@@ -24,24 +24,24 @@ class CarouselBanner extends React.Component{
                     <a href="">查看全部 &gt;</a>
                 </div>
                 <a className="carouselbanner-banner">banner</a>
-                    <Swiper
-                    navigation
-                    autoplay={{delay:3000}}
-                    speed={1000}
-                    slidesPerView={4}
-                    slidesPerColumn={2}
-                    slidesPerColumnFill={2}
-                    className="carouselbanner-slider"
-                    >
-                        <SwiperSlide >
-                            <a href="#" className="carouselbanner-slider-box">
-                                <div></div>
-                                <div>折扣碼</div>
-                            </a>
-                        </SwiperSlide>
-                        
-                    </Swiper>
-                </div>
+                <Swiper
+                navigation
+                autoplay={{delay:3000}}
+                speed={1000}
+                slidesPerView={4}
+                slidesPerColumn={2}
+                slidesPerColumnFill={2}
+                className="carouselbanner-slider"
+                >
+                    <SwiperSlide >
+                        <a href="#" className="carouselbanner-slider-box">
+                            <div></div>
+                            <div>折扣碼</div>
+                        </a>
+                    </SwiperSlide>
+                    
+                </Swiper>
+            </div>
             </>
         )
     }

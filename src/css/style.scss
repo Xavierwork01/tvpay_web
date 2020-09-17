@@ -308,9 +308,6 @@
 //----------------- sectionbanner ---------------
 .home-page{
     width:100%;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: center;
     background:#dedede;
     
 }
@@ -480,7 +477,7 @@
     width:1200px;
     height: 321px;
     padding:20px 0 0 0;
-
+    margin:auto;
     .sectiontimeout-header{
         width: 100%;
         height: 61px;
@@ -550,7 +547,7 @@
     width:1200px;
     height: 374px;
     padding:20px 0 0 0;
-
+    margin:auto;
     .groupbuy-header{
         width: 100%;
         height: 60px;
@@ -621,7 +618,7 @@
 .skinnybanner{
     width: 1200px;
     height: 140px;
-    // margin:auto;
+    margin:auto;
     display:flex;
     a{
         width: 50%;
@@ -642,15 +639,16 @@
 .carouselbanner{
     width: 1200px;
     height: 503px;
-    
+    margin:auto;
     display:flex;
+    padding:20px 0 0 0;
     flex-wrap:wrap;
-    margin:20px 0 0 0;
     .carouselbanner-header{
         width: 100%;
         height: 28px;
         display:flex;
         justify-content: space-between;
+        margin:20px 0 0 0;
         padding:0 5px 10px 20px;
         div{
             width: 1010px;
@@ -681,6 +679,7 @@
     padding:20px 0 0 0;
     width: 1200px;
     height: 181px;
+    margin:auto;
     .mostbanner-header{
         width: 100%;
         height: 61px;
@@ -725,8 +724,8 @@
 .hotbanner{
     width: 1200px;
     height: 406px;
-    padding:20px 0 0 0;
-
+    padding:20px 0;
+    margin:auto;
     .hotbanner-header{
         height: 61px;
         padding:0 20px;
@@ -764,9 +763,73 @@
 .newdaybanner-nav{
     width: 1200px;
     height: 61px;
+    padding:0 20px;
+    margin:auto;
     background: #fff;
+    ul{
+        display:flex;
+        align-items: center;
+        justify-content: flex-start;
+        line-height: 61px;
+    }
 }
 .newdaybanner-products{
     width: 1200px;
-    height: 1200px;
+    margin:5px auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+.newdaybanner-card{
+    width: 200px;
+    height: 285px;
+    padding:0 5px;
+    
+    .newdaybanner-cardbox{
+        width: 190px;
+        height: 275px;
+        padding:0;
+        background: #fff;
+        .card-image{
+            width: 190px;
+            height: 190px;
+            padding:1px;
+            img{
+                width: 188px;
+                height: 188px;
+                margin:0;
+            }
+        }
+        .card-content{
+            height: 85px;
+            padding:10px;
+            .content{
+                overflow:hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2; //行數
+                -webkit-box-orient: vertical;
+                white-space: normal;
+                margin:0;
+            }
+            .card-price{
+                display:flex;
+                justify-content: space-between;
+            }
+        }
+    }
+    
+}
+
+.newdaybanner-more{
+    width: 1200px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    button{
+        width:390px;
+        height: 40px;
+        padding:0 20px;
+        margin:20px 0;
+    }
 }
