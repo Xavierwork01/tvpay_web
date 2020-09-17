@@ -15,7 +15,7 @@ class CarouselBanner extends React.Component{
             <>
             <div className="carouselbanner">
                 <div className="carouselbanner-header">
-                    <a href="#">蝦皮商城</a>
+                    <a href="#">商城</a>
                     <div className="">
                         <span>-----</span>
                         <span>-----</span>
@@ -23,23 +23,36 @@ class CarouselBanner extends React.Component{
                     </div>
                     <a href="">查看全部 &gt;</a>
                 </div>
-                <a className="carouselbanner-banner">banner</a>
+                <a className="carouselbanner-banner">
+                    <div className="carouselbanner-box">
+                        <img src=""></img>
+                    </div>
+                </a>
                 <Swiper
                 navigation
-                autoplay={{delay:3000}}
-                speed={1000}
-                slidesPerView={4}
                 slidesPerColumn={2}
-                slidesPerColumnFill={2}
-                className="carouselbanner-slider"
-                >
-                    <SwiperSlide >
-                        <a href="#" className="carouselbanner-slider-box">
-                            <div></div>
-                            <div>折扣碼</div>
-                        </a>
+                slidesPerColumnFill={'row'}
+                autoplay={{delay:3000}}
+                width={800}
+                height={472}
+                speed={1000}
+                className="carouselbanner-items"
+                >  
+                <SwiperSlide>
+                    <SwiperSlide className="carouselbanner-slider">
+                        <a className="carouselbanner-box">1</a>
+                        <a className="carouselbanner-box">2</a>
+                        <a className="carouselbanner-box">3</a>
+                        <a className="carouselbanner-box">4</a>
                     </SwiperSlide>
-                    
+                    <SwiperSlide className="carouselbanner-slider">
+                        <a className="carouselbanner-box">1</a>
+                        <a className="carouselbanner-box">2</a>
+                        <a className="carouselbanner-box">3</a>
+                        <a className="carouselbanner-box">4</a>
+                    </SwiperSlide>
+                </SwiperSlide>
+                
                 </Swiper>
             </div>
             </>

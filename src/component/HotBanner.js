@@ -19,22 +19,110 @@ class HotBanner extends React.Component{
                 </div>
                 <Swiper
                 navigation
+                autoplay={{delay:3000}}
                 speed={1000}
                 slidesPerView={3}
                 width={1200}
-                height={324}
+                height={325}
                 className="hotbanner-content"
                 >
                     <SwiperSlide className="hotbanner-box">
                         <a href="#">
-                            <div className="hotbanner-picture">
-                                <div><img src=""></img></div>
-                                <div><img src=""></img></div>
-                                <div><img src=""></img></div>
+                            <div className="hotbanner-link">
+                                <div className="hotbanner-img">
+                                    <div className="hotbanner-pic1">
+                                        <img src=""></img>
+                                    </div>
+                                    <div className="hotbanner-pic2">
+                                        <img src=""></img>
+                                        <img src=""></img>
+                                    </div>
+                                </div>
+                                <div className="hotbanner-text">熱門專區</div>
                             </div>
-                            <div>熱門精選</div>
                         </a>
                     </SwiperSlide>
+                    <SwiperSlide className="hotbanner-box">
+                        <a href="#">
+                            <div className="hotbanner-link">
+                                <div className="hotbanner-img">
+                                    <div className="hotbanner-pic1">
+                                        <img src=""></img>
+                                    </div>
+                                    <div className="hotbanner-pic2">
+                                        <img src=""></img>
+                                        <img src=""></img>
+                                    </div>
+                                </div>
+                                <div className="hotbanner-text">熱門專區</div>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className="hotbanner-box">
+                        <a href="#">
+                            <div className="hotbanner-link">
+                                <div className="hotbanner-img">
+                                    <div className="hotbanner-pic1">
+                                        <img src=""></img>
+                                    </div>
+                                    <div className="hotbanner-pic2">
+                                        <img src=""></img>
+                                        <img src=""></img>
+                                    </div>
+                                </div>
+                                <div className="hotbanner-text">熱門專區</div>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className="hotbanner-box">
+                        <a href="#">
+                            <div className="hotbanner-link">
+                                <div className="hotbanner-img">
+                                    <div className="hotbanner-pic1">
+                                        <img src=""></img>
+                                    </div>
+                                    <div className="hotbanner-pic2">
+                                        <img src=""></img>
+                                        <img src=""></img>
+                                    </div>
+                                </div>
+                                <div className="hotbanner-text">熱門專區</div>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className="hotbanner-box">
+                        <a href="#">
+                            <div className="hotbanner-link">
+                                <div className="hotbanner-img">
+                                    <div className="hotbanner-pic1">
+                                        <img src=""></img>
+                                    </div>
+                                    <div className="hotbanner-pic2">
+                                        <img src=""></img>
+                                        <img src=""></img>
+                                    </div>
+                                </div>
+                                <div className="hotbanner-text">熱門專區</div>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    <SwiperSlide className="hotbanner-box">
+                        <a href="#">
+                            <div className="hotbanner-link">
+                                <div className="hotbanner-img">
+                                    <div className="hotbanner-pic1">
+                                        <img src=""></img>
+                                    </div>
+                                    <div className="hotbanner-pic2">
+                                        <img src=""></img>
+                                        <img src=""></img>
+                                    </div>
+                                </div>
+                                <div className="hotbanner-text">熱門專區</div>
+                            </div>
+                        </a>
+                    </SwiperSlide>
+                    
                 </Swiper>
             </div>
             </>

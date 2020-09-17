@@ -24,31 +24,27 @@ $body-background-color:$beige-lighter;
 
 @import '../../node_modules/swiper/swiper-bundle.css';
 
-
-// .swiper-container-rtl .swiper-button-prev,
-// .swiper-container-rtl .swiper-button-next{
-//     width: 50px;
-//     height: 50px;
-//     color:#fff;
-// }
+:root {
+    --swiper-navigation-size: 20px;
+    /*
+    --swiper-navigation-color: var(--swiper-theme-color);
+    */
+  }
 
 .swiper-button-next::after{
-    width: 50px;
-    height: 50px;
     color:#000;
-    opacity: 0;
+    opacity: 0.1;
 }
+
 .swiper-button-next:hover::after{
-    opacity: 0.5;
+    opacity: 1;
 }
 .swiper-button-prev::after{
-    width: 50px;
-    height: 50px;
     color:#000;
-    opacity: 0;
+    opacity: 0.1;
 }
 .swiper-button-prev:hover::after{
-    opacity: 0.5;
+    opacity: 1;
 }
 
 // .swiper-pagination-bullet-active{

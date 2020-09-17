@@ -510,6 +510,7 @@
     }
     
     .sectiontimeout-items{
+        
         background:#fff;
 
         .swiper-slider-box{
@@ -648,26 +649,36 @@
         height: 28px;
         display:flex;
         justify-content: space-between;
-        margin:20px 0 0 0;
         padding:0 5px 10px 20px;
         div{
             width: 1010px;
         }
     }
     .carouselbanner-banner{
-        width: 390px;
+        width: 400px;
         height: 472px;
         padding:10px 0 10px 10px;
         background: #fff;
+        div{
+            width: 390px;
+            height: 452px;
+            img{
+                width: 100%;
+                height: 452px;
+            }
+        }
     }
-    .carouselbanner-slider{
-        width: 800px;
-        height: 472px;
+    .carouselbanner-items{
         background: #fff;
-        .carouselbanner-slider-box{
-            width: 180px;
-            height: 216px;
-            padding:10px;
+        .carouselbanner-slider{
+            height: 236px;
+            display:flex;
+            
+            .carouselbanner-box{
+                width: 200px;
+                height: 236px;
+                // border:1px solid orangered;
+            }
         }
     }
     
@@ -676,9 +687,10 @@
 // ------------------ MostBanner -------------------
 
 .mostbanner{
-    padding:20px 0 0 0;
+    
     width: 1200px;
     height: 181px;
+    padding:20px 0 0 0;
     margin:auto;
     .mostbanner-header{
         width: 100%;
@@ -724,7 +736,7 @@
 .hotbanner{
     width: 1200px;
     height: 406px;
-    padding:20px 0;
+    padding:20px 0 0 0;
     margin:auto;
     .hotbanner-header{
         height: 61px;
@@ -738,98 +750,116 @@
         }
     }
     .hotbanner-content{
-        
         background: #fff;
-
-        a{
             
-            border:0.5px solid red;
-            width: 399.5px;
-            height: 324px;
+        .hotbanner-link{
+            width:338px;
+            height:268px;
             padding:30px 30px 25px;
-            background: blue;
-
-                .hotbanner-picture{
-                    width:338px;
+            .hotbanner-img{
+                width:333px;
+                height:224px;
+                margin:0 5px 0 0;
+                display:flex;
+                .hotbanner-pic1{
+                    width: 224px;
                     height: 224px;
+                    padding:0 5px 0 0;
+                    img{
+                        width: 224px;
+                        height: 224px;
+                    }
                 }
-            
+                .hotbanner-pic2{
+                    width:109px;
+                    img{
+                        width: 109px;
+                        height: 109px;
+                    }
+                }
+            }
+            .hotbanner-text{
+                margin:23px 0 0 0;
+            }
         }
     }
 }
 
 // ------------------- NewDayBanner --------------------
-
-.newdaybanner-nav{
-    width: 1200px;
-    height: 61px;
-    padding:0 20px;
-    margin:auto;
-    background: #fff;
-    ul{
-        display:flex;
-        align-items: center;
-        justify-content: flex-start;
-        line-height: 61px;
-    }
-}
-.newdaybanner-products{
-    width: 1200px;
-    margin:5px auto;
-    display:flex;
-    flex-wrap:wrap;
-}
-.newdaybanner-card{
-    width: 200px;
-    height: 285px;
-    padding:0 5px;
-    
-    .newdaybanner-cardbox{
-        width: 190px;
-        height: 275px;
-        padding:0;
-        background: #fff;
-        .card-image{
-            width: 190px;
-            height: 190px;
-            padding:1px;
-            img{
-                width: 188px;
-                height: 188px;
-                margin:0;
-            }
-        }
-        .card-content{
-            height: 85px;
-            padding:10px;
-            .content{
-                overflow:hidden;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                display: -webkit-box;
-                -webkit-line-clamp: 2; //行數
-                -webkit-box-orient: vertical;
-                white-space: normal;
-                margin:0;
-            }
-            .card-price{
-                display:flex;
-                justify-content: space-between;
-            }
-        }
-    }
-    
-}
-
-.newdaybanner-more{
+.newdaybanner{
     width: 1200px;
     margin:auto;
-    display:flex;
-    justify-content: center;
-    button{
-        width:390px;
-        height: 40px;
+    padding:20px 0 0 0;
+    .newdaybanner-nav{
+        width: 1200px;
+        height: 61px;
         padding:0 20px;
-        margin:20px 0;
+        background: #fff;
+        ul{
+            display:flex;
+            align-items: center;
+            justify-content: flex-start;
+            line-height: 61px;
+        }
+    }
+    .newdaybanner-products{
+        width: 1200px;
+        margin:5px auto;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .newdaybanner-card{
+        width: 200px;
+        height: 285px;
+        padding:0 5px;
+        
+        .newdaybanner-cardbox{
+            width: 190px;
+            height: 275px;
+            padding:0;
+            background: #fff;
+            .card-image{
+                width: 190px;
+                height: 190px;
+                padding:1px;
+                img{
+                    width: 188px;
+                    height: 188px;
+                    margin:0;
+                }
+            }
+            .card-content{
+                height: 85px;
+                padding:10px;
+                .content{
+                    overflow:hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2; //行數
+                    -webkit-box-orient: vertical;
+                    white-space: normal;
+                    margin:0;
+                }
+                .card-price{
+                    display:flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+        
+    }
+
+    .newdaybanner-more{
+        width: 1200px;
+        margin:auto;
+        display:flex;
+        justify-content: center;
+        button{
+            width:390px;
+            height: 40px;
+            padding:0 20px;
+            margin:20px 0;
+        }
     }
 }
