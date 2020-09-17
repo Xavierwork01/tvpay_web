@@ -18,8 +18,9 @@ class Home extends React.Component{
     render(){
         return (
             <>
-            <Header/>
+            
             <div className="home-page">
+            <Header/>
                 <SectionBanner/>
                 <PackageBanner/>
                 <ClassBanner/>
@@ -30,8 +31,9 @@ class Home extends React.Component{
                 <MostBanner/>
                 <HotBanner/>
                 <NewDayBanner/>
-            </div>
             <Footer/>
+            </div>
+            
             </>
         )
     }
