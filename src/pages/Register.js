@@ -11,8 +11,9 @@ class Register extends React.Component{
 
         return(
             <>
-            <RegisterHeader/>
+            
             <div className="login-wrapper">
+            <RegisterHeader/>
             <form className="box login-box">
                 <h1>註冊</h1>
                 <div class="field">
@@ -52,8 +53,9 @@ class Register extends React.Component{
                     </div>
                 </div>
             </form>
-            </div>
             <Footer/>
+            </div>
+            
             </>
         )
     }

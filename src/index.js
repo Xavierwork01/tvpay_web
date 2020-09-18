@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import Register from './pages/Register'
+import Products from './pages/Products'
+import ProductDetail from './pages/ProductDetail'
 import './css/app.scss'
 import './css/style.scss'
-import Products from './pages/Products'
 
 
 
-ReactDOM.render(<Products/>,document.getElementById('root'))
+
+ReactDOM.render(<ProductDetail/>,document.getElementById('root'))

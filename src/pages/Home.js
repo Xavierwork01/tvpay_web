@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../commons/Header'
 import SectionBanner from '../component/SectionBanner'
 import PackageBanner from '../component/PackageBanner'
 import ClassBanner from '../component/ClassBanner'
@@ -10,17 +9,15 @@ import CarouselBanner from '../component/CarouselBanner'
 import MostBanner from '../component/MostBanner'
 import HotBanner from '../component/HotBanner'
 import NewDayBanner from '../component/NewDayBanner'
-import Footer from '../commons/Footer'
+import Layout from './Layout'
 
 
 class Home extends React.Component{
 
     render(){
         return (
-            <>
-            
+            <Layout>
             <div className="home-page">
-            <Header/>
                 <SectionBanner/>
                 <PackageBanner/>
                 <ClassBanner/>
@@ -31,10 +28,8 @@ class Home extends React.Component{
                 <MostBanner/>
                 <HotBanner/>
                 <NewDayBanner/>
-            <Footer/>
             </div>
-            
-            </>
+            </Layout>
         )
     }
 }

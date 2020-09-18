@@ -1,89 +1,33 @@
 import React from 'react'
-import {CSSTransition,TransitionGroup} from 'react-transition-group'
-
-class Product extends React.Component{
 
 
-    render(){
+const Product = props => {
 
-        return(
-            <>
-            <div className="product">
-                <div className="card">
-                    <div className="card-image">
+    
+
+    return(
+        <>
+            <div className="card">
+                <div className="card-image">
+                    <a href="#">
                         <figure className="image is-4by3">
                         <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                         </figure>
-                    </div>
-                    <div className="card-content">
-                        <div className="content">
-                            <div>
-                                <p>Product Name</p>
-                            </div>
+                    </a>
+                </div>
+                <div className="card-content">
+                    <div className="content">
+                        <p>Product Name</p>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <div className="product-buy">
+                            <div>$999</div>
+                            <button className="product-buy-icon"><i class="fas fa-heart"></i></button>
                         </div>
                     </div>
                 </div>
-                <div className="card">
-                    <div className="card-image">
-                        <figure className="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
-                        </figure>
-                    </div>
-                    <div className="card-content">
-                        <div className="content">
-                            <div>
-                                <p>Product Name</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-image">
-                        <figure className="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
-                        </figure>
-                    </div>
-                    <div className="card-content">
-                        <div className="content">
-                            <div>
-                                <p>Product Name</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-image">
-                        <figure className="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
-                        </figure>
-                    </div>
-                    <div className="card-content">
-                        <div className="content">
-                            <div>
-                                <p>Product Name</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="card-image">
-                        <figure className="image is-4by3">
-                        <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
-                        </figure>
-                    </div>
-                    <div className="card-content">
-                        <div className="content">
-                            <div>
-                                <p>Product Name</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
-            </>
-        )
-    }
+        </>    
+    )
 }
 
 

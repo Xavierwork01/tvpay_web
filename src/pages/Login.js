@@ -11,8 +11,8 @@ class Login extends React.Component{
 
         return(
             <>
-            <LoginHeader/>
             <div className="login-wrapper">
+            <LoginHeader/>
             <form className="box login-box">
                 <h1>登入</h1>
                 <div class="field">
@@ -58,8 +58,8 @@ class Login extends React.Component{
                     </div>
                 </div>
             </form>
-            </div>
             <Footer/>
+            </div>
             </>
         )
     }

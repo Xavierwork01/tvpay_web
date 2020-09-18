@@ -10,7 +10,13 @@ class ProductsTool extends React.Component{
             <div className="productstool">
                 <div className="products-title">Products</div>
                 <div className="products-features">
-                    <div className="products-filter">篩選</div>
+                    <ul class="products-breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li class="active">分類</li>
+                    </ul>
+                    <div className="products-filter">
+                        <p className="mr-3">篩選</p>
                         <div class="dropdown is-hoverable">
                             <div class="dropdown-trigger">
                                 <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
@@ -30,6 +36,9 @@ class ProductsTool extends React.Component{
                                 </div>
                             </div>
                         </div>
+                        <button className="button is-link ml-2">最新</button>
+                        <button className="button is-link ml-2">熱門</button>
+                    </div>
                 </div>
             </div>
             </>

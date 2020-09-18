@@ -8,13 +8,13 @@ class RegisterHeader extends React.Component{
 
         return(
             <>
-            <div className="loginheader">
-                <div className="loginheader-nav">
-                    <div className="login-logo-box">
+            <div className="LR-header">
+                <div className="LR-header-nav">
+                    <div className="LR-logo-box">
                         <a href=""><img src=""></img></a>
                         <div>註冊</div>
                     </div>
-                    <a href="#" className="login-help">需要幫助?</a>
+                    <a href="#" className="LR-help">需要幫助?</a>
                 </div>
             </div>
             </>
