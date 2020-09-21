@@ -24,12 +24,7 @@ $body-background-color:$beige-lighter;
 
 @import '../../node_modules/swiper/swiper-bundle.css';
 
-:root {
-    --swiper-navigation-size: 20px;
-    /*
-    --swiper-navigation-color: var(--swiper-theme-color);
-    */
-  }
+
 
 .swiper-button-next::after{
     color:#000;
