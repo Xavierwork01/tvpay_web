@@ -7,6 +7,7 @@ const Product = props => {
 
     return(
         <>
+        
             <div className="card">
                 <div className="card-image">
                     <a href="#">

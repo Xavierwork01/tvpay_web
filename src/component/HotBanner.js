@@ -19,7 +19,10 @@ class HotBanner extends React.Component{
                 </div>
                 <Swiper
                 navigation
-                autoplay={{delay:3000}}
+                autoplay={{
+                    delay:3000,
+                    disableOnInteraction:false
+                }}
                 speed={1000}
                 slidesPerView={3}
                 width={1200}

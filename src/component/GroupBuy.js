@@ -21,7 +21,10 @@ class GroupBuy extends React.Component{
                 <Swiper
                 slidesPerView={6}
                 navigation
-                autoplay={{delay:3000}}
+                autoplay={{
+                    delay:3000,
+                    disableOnInteraction:false
+                }}
                 speed={1000}
                 className="groupbuy-items"
                 width={1200}

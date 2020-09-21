@@ -17,8 +17,12 @@ class SectionBanner extends React.Component{
                         <Swiper
                         navigation
                         pagination
-                        autoplay={{delay:3000}}
+                        autoplay={{
+                            delay:3000,
+                            disableOnInteraction:false
+                        }}
                         speed={1000}
+                        
                         >
                             <SwiperSlide className="swiper-slider-box">
                                 <a href="#"><img src=""></img></a>

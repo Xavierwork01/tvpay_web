@@ -2,6 +2,7 @@
 
 .main{
     position: relative;
+    // margin:119px 0 468px 0;
 }
 
 // --------------- Home page ---------------
@@ -18,7 +19,7 @@
     height: 84px;
     display:flex;
     align-items: center;
-    background: orangered;
+    background: #000;
     color:#fff;
     position: absolute;
     z-index:999;
@@ -210,7 +211,7 @@
 .header-wrapper{
     width: 100%;
     height: 119px;
-    background: orangered;
+    background: #000;
     position:fixed;
     top:0;
     z-index:100;
@@ -287,7 +288,7 @@
                 width: 60px;
                 padding:0 10px;
                 height: 34px;
-                background: orangered;
+                background: #000;
                 border:none;
                 outline: none;
                 border-radius: 3px;
@@ -318,6 +319,14 @@
             top:calc(50% - 13px);
             left:calc(50% - 13px);
             color:#fff;
+        }
+        .dropdown-content{
+            .dropdown-item{
+                width: 300px;
+                height: 300px;
+                text-align: center;
+                
+            }
         }
     }
 }
@@ -900,54 +909,53 @@
     width:100%;
     padding:120px 0 500px 0;
     background: #dedede;
-    
+}
 
-    .products-page{
-        width: 1200px;
-        margin:auto;
-        padding:20px 0 0 0;
-        display:flex;
-        justify-content: center;
-        .page-prev{
-            border:none;
+.products-page{
+    width: 1200px;
+    margin:auto;
+    padding:20px 0;
+    display:flex;
+    justify-content: center;
+    .page-prev{
+        border:none;
+        width: 40px;
+        height: 30px;
+        margin:0 15px 0 0;
+        background:transparent;
+    }
+    .page-next{
+        border:none;
+        width: 40px;
+        height: 30px;
+        margin:0 0 0 15px;
+        background:transparent;
+    }
+    .page-num{
+
+        .page-btn{
+            // background:transparent;
+            background: #000;
+            color:#fff;
             width: 40px;
             height: 30px;
-            margin:0 15px 0 0;
-            background:transparent;
-        }
-        .page-next{
+            outline: none;
             border:none;
+            margin:0 15px;
+            border-radius:3px;
+        }
+        .page-btn:hover{
+            background: #000;
+            color:#fff;
+        }
+        .page-dot{
+            background: transparent;
             width: 40px;
             height: 30px;
-            margin:0 0 0 15px;
-            background:transparent;
-        }
-        .page-num{
-
-            .page-btn{
-                // background:transparent;
-                background: #000;
-                color:#fff;
-                width: 40px;
-                height: 30px;
-                outline: none;
-                border:none;
-                margin:0 15px;
-                border-radius:3px;
-            }
-            .page-btn:hover{
-                background: #000;
-                color:#fff;
-            }
-            .page-dot{
-                background: transparent;
-                width: 40px;
-                height: 30px;
-                outline: none;
-                border:none;
-                margin:0 15px;
-                font-weight: 900;
-            }
+            outline: none;
+            border:none;
+            margin:0 15px;
+            font-weight: 900;
         }
     }
 }
@@ -1091,7 +1099,6 @@
 
 .productdetail{
     width: 1200px;
-    border:1px solid red;
     padding:140px 0 468px 0;
     margin:auto;
     display:flex;
@@ -1102,10 +1109,102 @@
         padding: 15px;
     }
 
-    .productdetail-pro{
+    .productdetail-content{
         width: 800px;
         height: 679px;
         padding:20px 35px 0 20px;
-        // border:1px solid blue;
+
+        .productdetail-state{
+            height: 25px;
+            display:flex;
+            margin:15px 0 0 0;
+
+            .score{
+                color:red;
+            }
+
+            .eva{
+                width:100px;
+            }
+        }
+        .productdetail-money{
+            display:flex;
+            background: #dedede;
+            padding:15px 20px;
+        }
+
+        .productdetail-items{
+            
+            
+            .productdetail-item1, .productdetail-item2,
+            .productdetail-item3, .productdetail-item4,
+            .productdetail-item5, .productdetail-item6{
+                display:flex;
+            }
+        }
+    }
+}
+
+
+
+
+// ------------------- SpecailProducts ----------------------
+
+
+
+.specialproducts{
+    width: 100%;
+    padding:119px 0 468px 0;
+    .specialproducts-nav{
+        width: 100%;
+        background: #fff;
+        .specialproducts-items{
+            width: 1200px;
+            height: 50px;
+            display:flex;
+            margin:auto;
+            justify-content: space-evenly;
+            a{
+                line-height: 47px;
+                border-bottom:3px solid transparent;
+            }
+            a:hover{
+                color:red;
+                transition:.5s;
+            }
+            a:focus{
+                border-bottom:3px solid red;
+            }
+                
+            .drop-div{
+                line-height: 50px;
+                border:none;
+            }
+            .drop-div:active{
+                outline: none;
+            }
+            .drop-div:hover{
+                color:red;
+                transition:.5s;
+                cursor: pointer;
+            }
+        }
+    }
+    .specialproduct-header{
+        width: 1200px;
+        height: 100px;
+        text-align: center;
+        margin:auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size:2rem;
+            padding:0 20px;
+        }
+        div{
+            width: 20px;
+            border:2px solid red;
+        }
     }
 }

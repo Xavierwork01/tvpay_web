@@ -28,21 +28,22 @@ $body-background-color:$beige-lighter;
 
 .swiper-button-next::after{
     color:#000;
-    opacity: 0.1;
-}
-
-.swiper-button-next:hover::after{
-    opacity: 1;
+    opacity:0.3;
+    
 }
 .swiper-button-prev::after{
     color:#000;
-    opacity: 0.1;
+    opacity: 0.3;
 }
+.swiper-button-next:hover::after{
+    opacity: 0.8;
+}
+
 .swiper-button-prev:hover::after{
-    opacity: 1;
+    opacity: 0.8;
 }
 
-// .swiper-pagination-bullet-active{
-//     background: #fff;
-// }
-
+.swiper-container{
+    --swiper-navigation-size:30px;
+    
+}

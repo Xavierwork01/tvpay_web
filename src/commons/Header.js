@@ -31,7 +31,7 @@ class Header extends React.Component{
                     <div className="search-box">
                         <div className="search-input">
                             <input type="text" placeholder="搜尋關鍵字"></input>
-                            <button className=""><FaSearch className="search-btn-icon" /></button>
+                            <button className="button"><FaSearch className="search-btn-icon" /></button>
                         </div>
                         <div className="search-link">
                                 <a href="#">123</a>
@@ -41,8 +41,15 @@ class Header extends React.Component{
                                 <a href="#">123</a>
                         </div>
                     </div>
-                    <div className="shopping-cart">
-                            <CgShoppingCart className="shopping-icon" />
+                    <div className="shopping-cart dropdown is-right is-hoverable">
+                            <CgShoppingCart className="shopping-icon dropdown-trigger" />
+                            <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                                <div class="dropdown-content">
+                                <div class="dropdown-item">
+                                    <div>這裡好空哦~</div>
+                                </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>

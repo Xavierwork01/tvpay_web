@@ -33,7 +33,10 @@ class CarouselBanner extends React.Component{
                 slidesPerColumn={2}
                 slidesPerView={4}
                 slidesPerColumnFill={'row'}
-                autoplay={{delay:3000}}
+                autoplay={{
+                    delay:3000,
+                    disableOnInteraction:false
+                }}
                 speed={1000}
                 className="carouselbanner-items"
                 >
