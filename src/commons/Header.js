@@ -9,15 +9,13 @@ class Header extends React.Component{
             <div className="header-wrapper">
                 <div className="header">
                     <div className="header-left">
-                        <a href="#">賣家中心</a>
+                        <a href="#">會員中心</a>
                         <div className="tvpay-download">
-                            <div className="tvpay-drawer">下載</div>
+                            <a href="#" className="tvpay-drawer">下載</a>
                         </div>
-                        <a href="#">追蹤我們</a>
+                        <a href="#">瀏覽紀錄</a>
                     </div>
                     <div className="header-right">
-                        <a href="#">通知總覽</a>
-                        <a href="#">幫助中心</a>
                         <a href="#">註冊</a>
                         <a href="#">登入</a>
                     </div>
@@ -34,11 +32,11 @@ class Header extends React.Component{
                             <button className="button"><FaSearch className="search-btn-icon" /></button>
                         </div>
                         <div className="search-link">
-                                <a href="#">123</a>
-                                <a href="#">123</a>
-                                <a href="#">123</a>
-                                <a href="#">123</a>
-                                <a href="#">123</a>
+                                <a href="#">3C</a>
+                                <a href="#">衣服</a>
+                                <a href="#">家電</a>
+                                <a href="#">口罩</a>
+                                <a href="#">酒精</a>
                         </div>
                     </div>
                     <div className="shopping-cart dropdown is-right is-hoverable">
