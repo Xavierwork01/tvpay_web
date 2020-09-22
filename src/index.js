@@ -12,4 +12,4 @@ import './css/style.scss'
 
 
 
-ReactDOM.render(<SpecialProducts/>,document.getElementById('root'))
+ReactDOM.render(<ProductDetail/>,document.getElementById('root'))

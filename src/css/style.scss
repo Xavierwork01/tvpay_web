@@ -3,6 +3,7 @@
 .main{
     position: relative;
     // margin:119px 0 468px 0;
+    background:#dedede;
 }
 
 // --------------- Home page ---------------
@@ -262,8 +263,9 @@
     .logo-link{
         width: 202px;
         height: 59px;
+        text-align: center;
         img{
-            width: 162px;
+            width: 59px;
             height: 59px;
         }
     }
@@ -1103,44 +1105,158 @@
     margin:auto;
     display:flex;
     
-    .productdetail-preview{
+    
+    .productdetail-slider{
         width: 480px;
         height: 679px;
         padding: 15px;
+        background: #fff;
+        // display:flex;
+
+        .productdetail-preview{
+            border:1px solid red;
+            
+
+            .preview-box{
+                width: 450px;
+                height: 450px;
+                img{
+                    width: 450px;
+                    height: 450px;
+                }
+            }
+        }
+        .productdetail-gallery{
+            border:1px solid orange;
+            .gallery-box{
+                width: 450px;
+                height: 95px;
+                img{
+                    width: 450px;
+                    height: 95px;
+                }
+            }
+        }
     }
 
     .productdetail-content{
         width: 800px;
         height: 679px;
         padding:20px 35px 0 20px;
+        background: #fff;
 
         .productdetail-state{
             height: 25px;
             display:flex;
             margin:15px 0 0 0;
+            line-height: 25px;
 
             .score{
                 color:red;
+                display:flex;
+                a{
+                    margin:0 5px 0 0;
+                    color:red;
+                    line-height: 25px;
+                    text-decoration:underline;
+                }
             }
-
+            i{
+                width: 18px;
+                height: 18px;
+                line-height: 25px;
+            }
             .eva{
-                width:100px;
+                padding:0 20px;
             }
         }
         .productdetail-money{
             display:flex;
+            align-items: center;
             background: #dedede;
             padding:15px 20px;
+            div{
+                margin:0 10px 0 0;
+            }
+            .price1{
+                text-decoration:line-through;
+            }
+            .price2{
+                font-size: 1.875rem;
+                color:red;
+            }
+            .onsale{
+                background: red;
+                color:#fff;
+            }
         }
 
         .productdetail-items{
             
-            
+            margin:25px 0 0 0;
+            padding: 0 20px;
+
             .productdetail-item1, .productdetail-item2,
             .productdetail-item3, .productdetail-item4,
             .productdetail-item5, .productdetail-item6{
                 display:flex;
+                padding:0 0 25px 0;
+                label{
+                    width: 110px;
+                }
+                input{
+                    width: 50px;
+                }
             }
+
+            .productdetail-item1{
+
+                div{
+                    background: lightpink;
+                    color:red;
+                    padding:0 5px;
+                }
+            }
+            .productdetail-item4{
+                label{
+                    line-height: 48px;
+                }
+            }
+            .productdetail-item5{
+                label{
+                    line-height:40px;
+                }
+                button{
+                    margin:0 10px 10px 0;
+                    font-size:14px;
+                }
+            }
+            .productdetail-item6{
+                label{
+                    line-height:40px;
+                }
+                div{
+                    line-height: 40px;
+                    margin: 0 0 0 20px;
+                }
+            }
+            
+        }
+        .productdetail-cart{
+                
+            button{
+                padding:0 20px;
+                margin:0 20px 0 0;
+                width: 180px;
+                height: 48px;
+                
+            }
+            .cart-btn1{
+                color: palevioletred;
+                border:1px solid palevioletred;
+            }
+            
+            
         }
     }
 }

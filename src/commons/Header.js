@@ -23,7 +23,7 @@ class Header extends React.Component{
                 <div className="header-search">
                     <div className="logo-link">
                         <a href="">
-                            <img src=""></img>
+                            <img src="https://tvott.com.tw/images/200.png"></img>
                         </a>
                     </div>
                     <div className="search-box">
