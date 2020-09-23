@@ -1,13 +1,11 @@
 import React from 'react'
 import Layout from './Layout'
 import { Swiper , SwiperSlide } from 'swiper/react'
-import SwiperCode,{ Navigation , Pagination , Autoplay, Thumbs } from 'swiper'
+import SwiperCode,{ Navigation , Pagination , Autoplay ,Thumbs, Controller} from 'swiper'
 import 'swiper/swiper-bundle.css'
 
 
-SwiperCode.use([Navigation , Pagination ,Autoplay,Thumbs])
-
-
+SwiperCode.use([Navigation , Pagination ,Autoplay ,Thumbs ,Controller])
 
 
 class ProductDetail extends React.Component{
@@ -22,7 +20,6 @@ class ProductDetail extends React.Component{
                         <div className="productdetail-slider">
                             <Swiper
                             className="productdetail-preview"
-                            slidesPerView={1}
                             watchSlidesVisibility={true}
                             effect={'fade'}
                             >
@@ -44,8 +41,15 @@ class ProductDetail extends React.Component{
                             </Swiper>
                             <Swiper
                             className="productdetail-gallery"
-                            navigation
+                            thumbs={{
+                                swiper:{
+                                    el:'.productdetail-preview',
+                                }
+                            }}
+                            slideThumbActiveClass={'.productdetail-gallery'}
                             slidesPerView={5}
+                            spaceBetween={5}
+                            watchSlidesProgress={true}
                             watchSlidesVisibility={true}
                             width={450}
                             height={90}
@@ -116,8 +120,8 @@ class ProductDetail extends React.Component{
                                 <div className="productdetail-item4">
                                     <label>運送</label>
                                     <div>
-                                        <div>免運</div>
-                                        <div>運費</div>
+                                        <div>免運 : 滿500，免運</div>
+                                        <div>運費 : 100</div>
                                     </div>
                                 </div>
                                 <div className="productdetail-item5">
@@ -149,13 +153,49 @@ class ProductDetail extends React.Component{
                         <div className="detail-box1">
                             <div className="detail-header">商品規格</div>
                             <div className="detail-format">
-
+                                <div className="detail-inside">
+                                    <div className="detail-hd">
+                                        <label>處理器</label>
+                                        <div>Intel i5-10210U</div>
+                                    </div>
+                                    <div className="detail-hd">
+                                        <label>硬碟容量</label>
+                                        <div>500GB</div>
+                                    </div>
+                                    <div className="detail-hd">
+                                        <label>品牌</label>
+                                        <div>ASUS 華碩</div>
+                                    </div>
+                                    <div className="detail-hd">
+                                        <label>NCC</label>
+                                        <div>CCAF16LP1510T2</div>
+                                    </div>
+                                    <div className="detail-hd">
+                                        <label>庫存</label>
+                                        <div>7</div>
+                                    </div>
+                                    <div className="detail-hd">
+                                        <label>出貨地</label>
+                                        <div>台北市中正區</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="detail-box2">
                             <div className="detail-header">商品詳情</div>
                             <div className="detail-info">
-                                
+                            商品特色：<br/>
+                            搭載第10代intel core i5處理器、全鋁機身、通過軍規測試
+                            <br/>
+                            <br/>
+                            型號：<br/>
+                            S403FA-0232C10210U 玫瑰金<br/>
+                            S403FA-0242S10210U 冰河藍
+                            <br/><br/>
+                            商品到貨隔日享蝦皮15天鑑賞(猶豫)期之權益【鑑賞(猶豫)期非試用期】，辦理退貨商品必須是完好狀態且需以本公司或特約商所使用的外包裝(紙箱或包裝袋)，妥善包裝後交付給前往取件的物流公司；若本公司或特約商的外包裝已經遺失，請您在商品原廠外盒外，再以其他適當的外盒進行包裝，請勿於商品原廠外盒上直接黏貼任何單據或書寫文字，否則將會影響退貨權限，此外也可能依照損毀程度扣除為回復原狀所必要的費用。
+                            <br/><br/>
+                            ●3C相關商品，為一次性包裝商品，請務必確認有購買需求後再拆封。<br/>
+                            ●網頁商品會因為使用不同的品牌螢幕以及解析度不同，造成圖片顏色呈現略有不同，請以實品顏色為準。"
                             </div>
                         </div>
                     </div>
@@ -175,48 +215,104 @@ class ProductDetail extends React.Component{
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                            <div className="button">全部</div>
-                            <div className="button">5星</div>
-                            <div className="button">4星</div>
-                            <div className="button">3星</div>
-                            <div className="button">2星</div>
-                            <div className="button">1星</div>
-                            <div className="button">附上評論</div>
-                            <div className="button">附上照片/影片</div>
+                            <button className="button">全部</button>
+                            <button className="button">5星</button>
+                            <button className="button">4星</button>
+                            <button className="button">3星</button>
+                            <button className="button">2星</button>
+                            <button className="button">1星</button>
+                            <button className="button">附上評論</button>
+                            <button className="button">附上照片/影片</button>
                         </div>
-                        <div className="productdetail-comment">
-                            <div className="">
-                                <div>
+                        <div className="eva-comment">
+                            <div className="eva-leave">
+                                <div className="eva-head">
                                     <img src="https://tvott.com.tw/images/200.png"></img>
                                 </div>
-                                <div>
-                                    <p>*******</p>
-                                    <div>
+                                <div className="eva-body">
+                                    <div>Name</div>
+                                    <div className="eva-personal">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                     </div>
-                                    <div>規格</div>
+                                    <div>規格 : 白色</div>
                                     <div>選擇蝦皮平台是因為有蝦皮聯名卡 由經銷商出貨 使用上沒遇到問題 可惜沒有無線充電</div>
+                                    <br/>
+                                    <br/>
                                     <div>2020-09-17 23:37</div>
+                                    <div>
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <span>0</span>
+                                    </div>
                                 </div>
+                                <hr/>
                             </div>
-                            <div className="products-page">
+                            <div className="eva-leave">
+                                <div className="eva-head">
+                                    <img src="https://tvott.com.tw/images/200.png"></img>
+                                </div>
+                                <div className="eva-body">
+                                    <div>Name</div>
+                                    <div className="eva-personal">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div>規格 : 白色</div>
+                                    <div>選擇蝦皮平台是因為有蝦皮聯名卡 由經銷商出貨 使用上沒遇到問題 可惜沒有無線充電</div>
+                                    <br/>
+                                    <br/>
+                                    <div>2020-09-17 23:37</div>
+                                    <div>
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
+                            <div className="eva-leave">
+                                <div className="eva-head">
+                                    <img src="https://tvott.com.tw/images/200.png"></img>
+                                </div>
+                                <div className="eva-body">
+                                    <div>Name</div>
+                                    <div className="eva-personal">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div>規格 : 白色</div>
+                                    <div>選擇蝦皮平台是因為有蝦皮聯名卡 由經銷商出貨 使用上沒遇到問題 可惜沒有無線充電</div>
+                                    <br/>
+                                    <br/>
+                                    <div>2020-09-17 23:37</div>
+                                    <div>
+                                        <i class="fas fa-thumbs-up"></i>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
+                        </div>
+                        <div className="products-page">
                                 <button className="page-prev">
                                     <i class="fas fa-chevron-left"></i>
                                 </button>
                                 <div className="page-num">
                                     <button className="page-btn">1</button>
                                     <button className="page-btn">2</button>
-                                    <button className="page-dot" disabled>...</button>
                                 </div>
                                 <button className="page-next">
                                     <i class="fas fa-chevron-right"></i>
                                 </button>
                             </div>
-                        </div>
                     </div>
                 </div>
             </Layout>

@@ -53,7 +53,7 @@ class Products extends React.Component{
                     <button className="page-btn">3</button>
                     <button className="page-btn">4</button>
                     <button className="page-btn">5</button>
-                    <button className="page-dot" disabled>...</button>
+                    {/* <button className="page-dot" disabled>...</button> */}
                 </div>
                 <button className="page-next">
                     <i class="fas fa-chevron-right"></i>

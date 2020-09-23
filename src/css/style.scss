@@ -914,7 +914,7 @@
 }
 
 .products-page{
-    width: 1200px;
+    width: 100%;
     margin:auto;
     padding:20px 0;
     display:flex;
@@ -1159,6 +1159,7 @@
                         border:none;
                         background: transparent;
                         font-size:30px;
+                        cursor: pointer;
 
                         .fa-facebook{
                             color:#166fe5;
@@ -1339,6 +1340,19 @@
             .detail-format{
                 width: 100%;
                 height: 300px;
+                padding:30px 15px 15px 15px;
+                
+                .detail-hd{
+
+                    display:flex;
+                    margin:0 0 18px 0;
+
+                    label{
+
+                        width: 100px;
+                        margin:0 40px 0 0;
+                    }
+                }
             }
         }
 
@@ -1355,6 +1369,7 @@
             .detail-info{
                 width: 100%;
                 height: 500px;
+                padding:30px 15px 15px 15px;
             }
         }
     }
@@ -1367,15 +1382,18 @@
         background: #fff;
 
         .eva-header{
+
             margin:0 0 18px 0;
         }
         .eva-rating{
+
             display:flex;
             align-items: center;
             background-color: rgb(255, 251, 248);
             border: 1px solid rgb(249, 237, 229);
             height: 131px;
             padding:30px;
+            margin:0 0 20px 0;
 
             .eva-box{
 
@@ -1405,6 +1423,40 @@
                 width: 110px;
                 margin:5px 8px 5px 0;
                 padding:0 10px;
+            }
+
+            .button:focus{
+
+                border:1px solid red;
+                color:red;
+                box-shadow: none;
+            }
+
+        }
+
+        .eva-comment{
+
+            .eva-leave{
+            
+                .eva-head{
+    
+                    width: 100px;
+                    height: 100px;
+    
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+
+                .eva-body{
+
+                    .eva-personal{
+                        
+                        color:red;
+
+                    }
+                }
             }
         }
     }
