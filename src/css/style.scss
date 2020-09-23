@@ -936,9 +936,9 @@
     .page-num{
 
         .page-btn{
-            // background:transparent;
-            background: #000;
-            color:#fff;
+            background:transparent;
+            // background: #000;
+            // color:#fff;
             width: 40px;
             height: 30px;
             outline: none;
@@ -950,6 +950,13 @@
             background: #000;
             color:#fff;
         }
+
+        .page-btn:focus{
+
+            background: #000;
+            color:#fff;
+        }
+
         .page-dot{
             background: transparent;
             width: 40px;
@@ -1287,11 +1294,28 @@
                     button{
                         margin:0 10px 10px 0;
                         font-size:14px;
+                        box-shadow: none;
                     }
+
+                    button:focus{
+
+                        color: palevioletred;
+                        border:1px solid palevioletred;
+
+                    }
+
                 }
+
                 .productdetail-item6{
                     label{
                         line-height:40px;
+                    }
+                    input{
+                        text-align: center;
+                    }
+                    input::-webkit-inner-spin-button,
+                    input::-webkit-outer-spin-button{
+                        -webkit-appearance:none;
                     }
                     div{
                         line-height: 40px;
@@ -1474,42 +1498,9 @@
 .specialproducts{
     width: 100%;
     padding:119px 0 468px 0;
-    .specialproducts-nav{
-        width: 100%;
-        background: #fff;
-        .specialproducts-items{
-            width: 1200px;
-            height: 50px;
-            display:flex;
-            margin:auto;
-            justify-content: space-evenly;
-            a{
-                line-height: 47px;
-                border-bottom:3px solid transparent;
-            }
-            a:hover{
-                color:red;
-                transition:.5s;
-            }
-            a:focus{
-                border-bottom:3px solid red;
-            }
-                
-            .drop-div{
-                line-height: 50px;
-                border:none;
-            }
-            .drop-div:active{
-                outline: none;
-            }
-            .drop-div:hover{
-                color:red;
-                transition:.5s;
-                cursor: pointer;
-            }
-        }
-    }
-    .specialproduct-header{
+    
+
+    .specialproducts-header{
         width: 1200px;
         height: 100px;
         text-align: center;
@@ -1524,6 +1515,43 @@
         div{
             width: 20px;
             border:2px solid red;
+        }
+    }
+}
+
+
+.pros-nav{
+    width: 100%;
+    background: #fff;
+    .pros-items{
+        width: 1200px;
+        height: 50px;
+        display:flex;
+        margin:auto;
+        justify-content: space-evenly;
+        a{
+            line-height: 47px;
+            border-bottom:3px solid transparent;
+        }
+        a:hover{
+            color:red;
+            transition:.5s;
+        }
+        a:focus{
+            border-bottom:3px solid red;
+        }
+            
+        .drop-div{
+            line-height: 50px;
+            border:none;
+        }
+        .drop-div:active{
+            outline: none;
+        }
+        .drop-div:hover{
+            color:red;
+            transition:.5s;
+            cursor: pointer;
         }
     }
 }

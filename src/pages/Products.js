@@ -1,7 +1,8 @@
 import React from 'react'
 import Layout from './Layout'
-import ProductsTool from '../component/ProductsTool'
-import Product from '../component/Product'
+import ProductsTool from '../components/Products/ProductsTool'
+import ProsNav from '../components/ProsNav'
+import Product from '../components/Product'
 import { CSSTransition , TransitionGroup } from 'react-transition-group'
 
 
@@ -25,6 +26,7 @@ class Products extends React.Component{
             <>
             <Layout>
             <div className="products">
+            <ProsNav/>
             <ProductsTool/>
             <div className="product">
                 <Product/>

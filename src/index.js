@@ -12,4 +12,5 @@ import './css/style.scss'
 
 
 
+
 ReactDOM.render(<ProductDetail/>,document.getElementById('root'))

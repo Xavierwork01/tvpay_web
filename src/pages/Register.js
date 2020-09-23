@@ -1,5 +1,5 @@
 import React from 'react'
-import RegisterHeader from '../component/RegisterHeader'
+import RegisterHeader from '../components/Register/RegisterHeader'
 import Footer from '../commons/Footer'
 import { AiFillFacebook } from 'react-icons/ai'
 import { FcGoogle } from 'react-icons/fc'
