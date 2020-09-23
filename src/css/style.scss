@@ -9,7 +9,7 @@
 // --------------- Home page ---------------
 .home-page{
     width:100%;
-    padding:120px 0 500px 0;
+    padding:120px 0 0 0;
     background:#dedede;
 }
 
@@ -158,7 +158,7 @@
     height: 468px;
     padding:0;
     position: absolute;
-    bottom:0;
+    // bottom:0;
     hr{
         margin:0 auto;
         background:#000;
@@ -909,7 +909,7 @@
 
 .products{
     width:100%;
-    padding:120px 0 500px 0;
+    padding:120px 0 0 0;
     background: #dedede;
 }
 
@@ -1108,9 +1108,9 @@
 
 .productdetail{
     width: 1200px;
-    padding:140px 0 468px 0;
+    padding:140px 0 20px 0;
     margin:auto;
-    // display:flex;
+    
     
     .productdetail-pro{
         display:flex;
@@ -1497,7 +1497,7 @@
 
 .specialproducts{
     width: 100%;
-    padding:119px 0 468px 0;
+    padding:119px 0 0 0;
     
 
     .specialproducts-header{
@@ -1554,4 +1554,59 @@
             cursor: pointer;
         }
     }
+}
+
+
+// ---------------- ShoppingCart ------------------
+
+.shoppingcart{
+
+    width: 1200px;
+    padding:119px 0 0 0;
+    margin:auto;
+
+    .shop-voucher{
+        
+        background: #fffefb;
+        border: 1px solid rgba(224,168,0,.4);
+        padding:0 20px;
+        line-height: 42px;
+        height: 42px;
+        width: 100%;
+        margin:20px 0 0 0;
+
+    }
+
+    .shop-header{
+
+        padding:0 20px;
+        margin:0 0 12px 0;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 55px;
+
+        .shop-item1{
+
+            display:flex;
+            align-items: center;
+
+            input{
+                width: 18px;
+                height: 18px;
+            }
+
+            div{
+
+            }
+
+        }
+
+        .shop-item2{
+
+            display:flex;
+        }
+
+    }
+
 }

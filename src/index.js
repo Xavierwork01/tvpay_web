@@ -6,6 +6,8 @@ import Register from './pages/Register'
 import Products from './pages/Products'
 import ProductDetail from './pages/ProductDetail'
 import SpecialProducts from './pages/SpecialProducts'
+import CheckOut from './pages/CheckOut'
+import ShoppingCart from './pages/ShoppingCart'
 import './css/app.scss'
 import './css/style.scss'
 
@@ -13,4 +15,4 @@ import './css/style.scss'
 
 
 
-ReactDOM.render(<ProductDetail/>,document.getElementById('root'))
+ReactDOM.render(<ShoppingCart/>,document.getElementById('root'))
