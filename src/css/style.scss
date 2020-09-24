@@ -1557,7 +1557,7 @@
 }
 
 
-// ---------------- ShopNav --------------------
+// ---------------- ShopNav & CheckNav --------------------
 
 .shopnav{
 
@@ -1567,7 +1567,6 @@
     .shopnav-hd{
 
         width: 100%;
-        height: 34px;
         background: #000;
         
         
@@ -1575,16 +1574,39 @@
 
             margin:auto;
             width: 1200px;
+            height: 34px;
             display:flex;
             justify-content: space-between;
-            color:#fff;
+            align-items: center;
+            
             
             .shopnav-features{
 
                 display:flex;
+                align-items: center;
                 
+                div{
+
+                    height: 15px;
+                    border-left:1px solid #fff;
+                    border-right:1px solid #fff;
+                    display:flex;
+                    align-items: center;
+                    
+                }
             }
 
+            .shopnav-state{
+
+            }
+
+        }
+
+        a{
+            color:#fff;
+            font-size: .8125rem;
+            line-height: 34px;
+            padding:0 10px;
         }
 
     }
@@ -1600,11 +1622,13 @@
             height: 100px;
             width: 1200px;
             align-items: center;
+            justify-content: space-between;
             margin:auto;
 
             .logo-link{
 
                 display:flex;
+                align-items: center;
 
                 a{
 
@@ -1615,6 +1639,46 @@
 
                 }
 
+                .logo-text{
+
+                    display:flex;
+                    align-items: center;
+                    padding:0 20px;
+                    height:30px;
+                    border-left:1px solid #000;
+                    border-right:1px solid #000;
+                    margin:0 20px;
+                    font-size:2rem;
+
+                }
+
+            }
+
+        }
+
+        .search-box{
+
+            display:flex;
+
+            input{
+
+                height: 40px;
+                width: 537px;
+                border:2px solid #000;
+                font-size:14px;
+                border-radius: 0;
+                box-shadow: none;
+
+            }
+
+            button{
+
+                width: 80px;
+                background: #000;
+                border:2px solid #000;
+                border-radius: 0;
+                color:#fff;
+                box-shadow: none;
             }
 
         }
@@ -1711,7 +1775,10 @@
 
         
 
-            .shop-img{
+            .shop-pro{
+
+                display:flex;
+                align-items: center;
 
                 img{
 
@@ -1720,12 +1787,21 @@
 
                 }
 
-            }
+                .shop-text{
 
-            .shop-text{
+                    padding:5px 10px;
+                    width: 320px;
+                    font-size: 14px;
+                    overflow:hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    white-space: normal;
+                    height: 50px;
 
-                padding:5px 10px;
-                width: 320px;
+                }
 
             }
 
@@ -1789,7 +1865,6 @@
     .shop-coupon{
 
         margin:10px 0;
-        height: 180px;
         background: #fff;
 
         .shop-coupon-header{
@@ -1797,7 +1872,8 @@
             display:flex;
             height: 50px;
             align-items: center;
-            justify-content: flex-end;
+            // justify-content: flex-end;
+            padding:0 20px;
             border-bottom:1px solid #dedede;
 
             span{
@@ -1823,7 +1899,7 @@
             height: 50px;
             border-bottom:1px solid #dedede;
             align-items: center;
-            justify-content: flex-end;
+            // justify-content: flex-end;
 
             div{
 
@@ -1889,3 +1965,56 @@
 
 }
 
+// ------------------ CheckOut --------------------
+
+.checkout{
+
+    width: 1200px;
+    padding:0px 0 10px 0;
+    margin:auto;
+
+    .check-header{
+
+        margin:20px 0 0 0;
+
+       .check-title{
+
+            background: #fff;
+            height: 70px;
+            padding:0 20px;
+            margin:0 0 20px 0;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+
+
+            .check-money{
+
+                display:flex;
+
+                div{
+
+                    width: 150px;
+
+                }
+            }
+
+        }
+       
+        .check-content{
+            
+            display:flex;
+            align-items: center;
+            height: 100px;
+
+            img{
+                width: 80px;
+                height: 80px;
+                margin:0 20px;
+            }
+        }
+       
+
+    }
+
+}

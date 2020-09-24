@@ -15,4 +15,4 @@ import './css/style.scss'
 
 
 
-ReactDOM.render(<ShoppingCart/>,document.getElementById('root'))
+ReactDOM.render(<CheckOut/>,document.getElementById('root'))

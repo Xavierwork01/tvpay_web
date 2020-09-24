@@ -11,12 +11,19 @@ class ShopCar extends React.Component{
             <>
                 <div className="shop-car">
                     <div className="shop-car-chk"><input type="checkbox" /></div>
-                    <div className="shop-img">
+                    <a href="#" className="shop-pro">
                         <img src=""/>
-                    </div>
-                    <div className="shop-text">在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推</div>
+                        <div className="shop-text"> 在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推 在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推</div>
+                    </a>
+                    
                     <div className="shop-format">
-                        規格
+                        <div class="select">
+                            <select>
+                                <option>規格1</option>
+                                <option>規格2</option>
+                                <option>規格3</option>
+                            </select>
+                        </div>
                     </div>
                     <div className="shop-unitprice">$245000</div>
                     <div className="shop-mount">

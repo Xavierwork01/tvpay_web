@@ -16,7 +16,7 @@ class ShoppingCart extends React.Component{
             <ShopNav/>
                 <div className="shoppingcart">
                     <div className="shop-voucher">
-                        <a href="#">點我領取運費抵用券！！！</a>
+                        <a href="#">點我領取優惠券！！！</a>
                     </div>
                     <div className="shop-header">
                         <div className="shop-item1">
@@ -38,6 +38,22 @@ class ShoppingCart extends React.Component{
                             <RiCoupon2Fill/>
                             <span>全站折價券</span>
                             <div className="button">選擇折價券</div>
+                        </div>
+                        <div className="shop-coupon-content">
+                            <div className="shop-car-chk"><input type="checkbox" /></div>
+                            <div className="shop-coupon-name">
+                                <RiCoupon3Fill className="coupon-icon"/>
+                                <span>蝦皮卷</span>
+                            </div>
+                            <div>-$1000</div>
+                        </div>
+                        <div className="shop-coupon-content">
+                            <div className="shop-car-chk"><input type="checkbox" /></div>
+                            <div className="shop-coupon-name">
+                                <RiCoupon3Fill className="coupon-icon"/>
+                                <span>蝦皮卷</span>
+                            </div>
+                            <div>-$1000</div>
                         </div>
                         <div className="shop-coupon-content">
                             <div className="shop-car-chk"><input type="checkbox" /></div>

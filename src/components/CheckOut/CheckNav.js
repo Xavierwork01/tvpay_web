@@ -2,7 +2,7 @@ import React from 'react'
 import { FaSearch } from 'react-icons/fa'
 
 
-class ShopNav extends React.Component{
+class CheckOutNav extends React.Component{
 
 
     render(){
@@ -32,11 +32,7 @@ class ShopNav extends React.Component{
                             <a href="">
                                 <img src="https://tvott.com.tw/images/200.png"></img>
                             </a>
-                            <div className="logo-text">購物車</div>
-                        </div>
-                        <div className="search-box">
-                            <input type="" placeholder="搜尋關鍵字" className="input"></input>
-                            <button className="button"><FaSearch className="" /></button>
+                            <div className="logo-text">結帳</div>
                         </div>
                     </div>    
                 </div>
@@ -47,4 +43,4 @@ class ShopNav extends React.Component{
 }
 
 
-export default ShopNav
+export default CheckOutNav
