@@ -1,5 +1,7 @@
 import React from 'react'
-import Layout from './Layout'
+import ShopNav from '../components/ShoppingCart/ShopNav'
+import Footer from '../commons/Footer'
+import ShopCar from '../components/ShoppingCart/ShopCar'
 import { RiCoupon2Fill } from 'react-icons/ri'
 import { RiCoupon3Fill } from 'react-icons/ri'
 
@@ -11,7 +13,7 @@ class ShoppingCart extends React.Component{
 
         return(
             <>
-            <Layout>
+            <ShopNav/>
                 <div className="shoppingcart">
                     <div className="shop-voucher">
                         <a href="#">點我領取運費抵用券！！！</a>
@@ -28,66 +30,9 @@ class ShoppingCart extends React.Component{
                             <div>操作</div>
                         </div>
                     </div>
-                    <div className="shop-car">
-                        <div className="shop-car-chk"><input type="checkbox" /></div>
-                        <div className="shop-img">
-                            <img src=""/>
-                        </div>
-                        <div className="shop-text">在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推</div>
-                        <div className="shop-format">
-                            規格
-                        </div>
-                        <div className="shop-unitprice">$245000</div>
-                        <div className="shop-mount">
-                            <button className="button">-</button>
-                            <input type="number" className="input" />
-                            <button className="button">+</button>
-                        </div>
-                        <div className="shop-total">$200000</div>
-                        <div className="shop-del">
-                            <button className="button">刪除</button>
-                        </div>
-                    </div>
-                    <div className="shop-car">
-                        <div className="shop-car-chk"><input type="checkbox" /></div>
-                        <div className="shop-img">
-                            <img src=""/>
-                        </div>
-                        <div className="shop-text">在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推</div>
-                        <div className="shop-format">
-                            規格
-                        </div>
-                        <div className="shop-unitprice">$245000</div>
-                        <div className="shop-mount">
-                            <button className="button">-</button>
-                            <input type="number" className="input" />
-                            <button className="button">+</button>
-                        </div>
-                        <div className="shop-total">$200000</div>
-                        <div className="shop-del">
-                            <button className="button">刪除</button>
-                        </div>
-                    </div>
-                    <div className="shop-car">
-                        <div className="shop-car-chk"><input type="checkbox" /></div>
-                        <div className="shop-img">
-                            <img src=""/>
-                        </div>
-                        <div className="shop-text">在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推</div>
-                        <div className="shop-format">
-                            規格
-                        </div>
-                        <div className="shop-unitprice">$245000</div>
-                        <div className="shop-mount">
-                            <button className="button">-</button>
-                            <input type="number" className="input" />
-                            <button className="button">+</button>
-                        </div>
-                        <div className="shop-total">$200000</div>
-                        <div className="shop-del">
-                            <button className="button">刪除</button>
-                        </div>
-                    </div>
+                    <ShopCar/>
+                    <ShopCar/>
+                    <ShopCar/>
                     <div className="shop-coupon">
                         <div className="shop-coupon-header">
                             <RiCoupon2Fill/>
@@ -117,7 +62,7 @@ class ShoppingCart extends React.Component{
                         </div>
                     </div>
                 </div>
-            </Layout>
+            <Footer/>
             </>
         )
     }
