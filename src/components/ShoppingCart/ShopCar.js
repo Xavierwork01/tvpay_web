@@ -15,7 +15,6 @@ class ShopCar extends React.Component{
                         <img src=""/>
                         <div className="shop-text"> 在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推 在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推</div>
                     </a>
-                    
                     <div className="shop-format">
                         <div class="select">
                             <select>

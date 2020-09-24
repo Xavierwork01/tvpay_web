@@ -1973,6 +1973,8 @@
     padding:0px 0 10px 0;
     margin:auto;
 
+    
+
     .check-header{
 
         margin:20px 0 0 0;
@@ -1982,7 +1984,7 @@
             background: #fff;
             height: 70px;
             padding:0 20px;
-            margin:0 0 20px 0;
+            margin:0 0 10px 0;
             display:flex;
             align-items: center;
             justify-content: space-between;
@@ -2006,15 +2008,201 @@
             display:flex;
             align-items: center;
             height: 100px;
+            background: #fff;
+            border-bottom:1px solid #dedede;
 
-            img{
-                width: 80px;
-                height: 80px;
-                margin:0 20px;
+            a{
+
+                display:flex;
+                align-items: center;
+
+                img{
+                    width: 80px;
+                    height: 80px;
+                    margin:0 20px;
+                }
+
+                .check-text{
+
+                    width: 350px;
+    
+                }
+
             }
+            
+            .check-format{
+
+                width: 200px;
+                text-align:center;
+                
+            }
+
+            .check-unitprice{
+
+                width: 150px;
+                text-align: center;
+            }
+
+            .check-mount{
+
+                width: 150px;
+                text-align:center;
+
+            }
+
+            .check-total{
+
+                width:150px;
+                text-align: center;
+
+            }
+
+        }
+
+        .check-send{
+
+            display:flex;
+            height: 90px;
+            background: #fafdff;
+            border-bottom:1px solid #dedede;
+
+            .check-leave{
+
+                padding:16px 30px;
+                display:flex;
+                width: 480px;
+
+                span{
+
+                    line-height: 40px;
+                    margin:0 5px;
+                }
+
+                input{
+
+                    width: 360px;
+                    box-shadow: none;
+                    padding:4px 12px;
+
+                }
+
+            }
+
+            .check-post{
+
+                width: 720px;
+                padding:10px 0;
+                background: #fafdff;
+                
+                .post-title{
+
+                    display:flex;
+                    justify-content: space-between;
+                    height: 16px;
+                    font-size:14px;
+
+                    div{
+
+                        padding:0 20px;
+                        color:#00bfa5;
+
+                    }
+
+                }
+
+                .post-address{
+
+                    display:flex;
+                    align-items: center;
+                    height: 50px;
+
+                    div{
+
+                        padding:0 20px;
+
+                    }
+
+                    button{
+
+                        height: 30px;
+                        box-shadow: none;
+
+                    }
+
+                    
+                }
+
+            }
+
+        }
+
+        .check-ordermoney{
+
+            background: #fafdff;
+            height: 80px;
+            line-height: 80px;
+            padding:0 20px;
+            justify-content: flex-end;
+            display:flex;
+
+            p{
+                font-size:20px;
+                margin:0 0 0 5px;
+                color:red;
+            }
+
         }
        
+    }
+
+    .check-coupon{
+
+        margin:10px 0 0 0;
+
+        .check-coupon-header{
+
+            display:flex;
+            background: #fff;
+            padding:0 20px;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #dedede;
+
+        }
+
+        .check-coupon-item1{
+
+            display:flex;
+            height: 80px;
+            align-items: center;
+
+            
+            div{
+
+                margin:0 10px;
+            }
+
+        }
+        
+        .check-coupon-content{
+
+            display:flex;
+            height: 80px;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+            padding:0 20px;
+
+        }
 
     }
+
+    .coupon-icon{
+
+        width: 20px;
+        height: 20px;
+        
+    }
+
 
 }
