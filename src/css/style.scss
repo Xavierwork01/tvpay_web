@@ -1562,51 +1562,261 @@
 .shoppingcart{
 
     width: 1200px;
-    padding:119px 0 0 0;
+    padding:119px 0 10px 0;
     margin:auto;
 
-    .shop-voucher{
-        
-        background: #fffefb;
-        border: 1px solid rgba(224,168,0,.4);
-        padding:0 20px;
-        line-height: 42px;
-        height: 42px;
-        width: 100%;
-        margin:20px 0 0 0;
+
+    button:focus{
+
+        border:none;
 
     }
 
-    .shop-header{
+    .shop-car-chk{
 
         padding:0 20px;
-        margin:0 0 12px 0;
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-        height: 55px;
+        height: 18px;
+    
+        input{
 
-        .shop-item1{
+            width: 18px;
+            height: 18px;
 
-            display:flex;
-            align-items: center;
+        }
 
-            input{
-                width: 18px;
-                height: 18px;
+    }
+
+        .shop-voucher{
+            
+            background: #fffefb;
+            border: 1px solid rgba(224,168,0,.4);
+            padding:0 20px;
+            line-height: 42px;
+            height: 42px;
+            width: 100%;
+            margin:20px 0 10px 0;
+
+            a{
+                color:red;
             }
 
-            div{
+        }
+
+        .shop-header{
+
+            padding:0 20px;
+            margin:0 0 12px 0;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 55px;
+            background: #fff;
+
+            .shop-item1{
+
+                display:flex;
+                align-items: center;
+
+            }
+
+            .shop-item2{
+
+                display:flex;
+                
+
+                div{
+
+                    width: 150px;
+                    text-align: center;
+
+                }
 
             }
 
         }
 
-        .shop-item2{
+        .shop-car{
 
             display:flex;
+            padding:15px 20px;
+            height: 115px;
+            background: #fff;
+            align-items: center;
+
+        
+
+            .shop-img{
+
+                img{
+
+                    width: 80px;
+                    height: 80px;
+
+                }
+
+            }
+
+            .shop-text{
+
+                padding:5px 10px;
+                width: 320px;
+
+            }
+
+            .shop-format{
+
+                width: 100px;
+                text-align:center;
+
+            }
+
+            .shop-unitprice{
+
+                width: 150px;
+                text-align: center;
+
+            }
+
+            .shop-mount{
+
+                width: 160px;
+                text-align: center;
+
+                input{
+
+                    width: 50px;
+                    text-align:center;
+
+                }
+
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+
+                    -webkit-appearance: none;
+
+                }
+
+            }
+
+            .shop-total{
+
+                width: 130px;
+                text-align: center;
+
+            }
+
+            .shop-del{
+
+                width: 150px;
+                padding:0 0 0 20px;
+                text-align: center;
+
+            }
+
+            
+        }
+
+    
+
+    .shop-coupon{
+
+        margin:10px 0;
+        height: 180px;
+        background: #fff;
+
+        .shop-coupon-header{
+
+            display:flex;
+            height: 50px;
+            align-items: center;
+            justify-content: flex-end;
+            border-bottom:1px solid #dedede;
+
+            span{
+                
+                width: 150px;
+                text-align:center;
+
+            }
+
+            div{
+
+               margin:0 20px;
+               
+            }
+
+           
+
+        }
+
+        .shop-coupon-content{
+
+            display:flex;
+            height: 50px;
+            border-bottom:1px solid #dedede;
+            align-items: center;
+            justify-content: flex-end;
+
+            div{
+
+                width: 100px;
+                display:flex;
+                align-items: center;
+
+                span{
+
+                    margin:0 10px;
+
+                }
+
+            }
+
+        }
+        
+        .shop-coupon-footer{
+
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+
+            .shop-select{
+
+                display:flex;
+                align-items: center;
+                
+
+            }
+
+            .shop-result{
+
+                display:flex;
+                align-items: center;
+
+                .shop-money{
+
+                    span{
+                        font-size: 1.875rem;
+                        color:red;
+                    }
+                    
+                    p{
+                        font-size:14px;
+                    }
+                }
+
+                button{
+
+                    width:200px;
+                    margin:0 20px;
+                    
+                }
+
+            }
+
         }
 
     }
 
 }
+
