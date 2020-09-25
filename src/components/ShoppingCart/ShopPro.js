@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-class ShopCar extends React.Component{
+class ShopPro extends React.Component{
 
 
     render(){
@@ -12,7 +12,7 @@ class ShopCar extends React.Component{
                 <div className="shop-car">
                     <div className="shop-car-chk"><input type="checkbox" /></div>
                     <a href="#" className="shop-pro">
-                        <img src=""/>
+                        <div className="shop-img"><img src="images/image1.png"/></div>
                         <div className="shop-text"> 在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推 在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推</div>
                     </a>
                     <div className="shop-format">
@@ -41,4 +41,4 @@ class ShopCar extends React.Component{
     }
 }
 
-export default ShopCar
+export default ShopPro

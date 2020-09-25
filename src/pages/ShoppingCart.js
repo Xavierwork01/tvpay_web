@@ -1,7 +1,7 @@
 import React from 'react'
 import ShopNav from '../components/ShoppingCart/ShopNav'
 import Footer from '../commons/Footer'
-import ShopCar from '../components/ShoppingCart/ShopCar'
+import ShopPro from '../components/ShoppingCart/ShopPro'
 import { RiCoupon2Fill } from 'react-icons/ri'
 import { RiCoupon3Fill } from 'react-icons/ri'
 
@@ -30,9 +30,9 @@ class ShoppingCart extends React.Component{
                             <div>操作</div>
                         </div>
                     </div>
-                    <ShopCar/>
-                    <ShopCar/>
-                    <ShopCar/>
+                    <ShopPro/>
+                    <ShopPro/>
+                    <ShopPro/>
                     <div className="shop-coupon">
                         <div className="shop-coupon-header">
                             <RiCoupon2Fill/>

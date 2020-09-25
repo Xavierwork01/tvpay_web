@@ -1,5 +1,6 @@
 import React from 'react'
 import CheckNav from '../components/CheckOut/CheckNav'
+import CheckPro from '../components/CheckOut/CheckPro'
 import Footer from '../commons/Footer'
 import { RiCoupon2Fill } from 'react-icons/ri'
 import { RiCoupon3Fill } from 'react-icons/ri'
@@ -25,20 +26,13 @@ class CheckOut extends React.Component{
                             <div>總價</div>
                         </div>
                     </div>
-                    <div className="check-content">
-                        <a href="#">
-                            <img src="" />
-                            <div className="check-text">在台現貨/贈10禮 免運 可到付 酷貝樂/艾尚寶 高景觀 可坐可躺 雙向推車 請詢問確認再下單</div>
-                        </a>
-                        <div className="check-format">規格</div>
-                        <div className="check-unitprice">$1000</div>
-                        <div className="check-mount">1</div>
-                        <div className="check-total">$1000</div>
-                    </div>
+                    <CheckPro/>
+                    <CheckPro/>
+                    <CheckPro/>
                     <div className="check-send">
                         <div className="check-leave">
                             <span>留言 : </span>
-                            <input type="text" className="input" />
+                            <input type="text" className="input" placeholder="留言給賣家"/>
                         </div>
                         <div className="check-post">
                             <div className="post-title">
@@ -70,13 +64,28 @@ class CheckOut extends React.Component{
                     </div>
                 </div>
                 <div className="check-pay">
-                    <div>
-                        <div>付款方式</div>
-                        <div></div>
-                        <div></div>
+                    <div className="check-pay-title">
+                        <div className="pay-the-way">付款方式</div>
+                        <button className="button">銀行轉帳</button>
+                        <button className="button">信用卡/金融卡</button>
                     </div>
-                    <div>內容</div>
-                    <div>下訂單</div>
+                    <div className="check-all-money">
+                        <div className="check-money">
+                            <div>商品總金額 :</div>
+                            <p>$2400</p>
+                        </div>
+                        <div className="check-money">
+                            <div>運費總金額 :</div>
+                            <p>$150</p>
+                        </div>
+                        <div className="check-money">
+                            <div>總付款金額 :</div>
+                            <p className="settlement">$2,600</p>
+                        </div>
+                    </div>
+                    <div className="check-neworder">
+                        <button className="button is-danger">下訂單</button>
+                    </div>
                 </div>
             </div>
             <Footer/>

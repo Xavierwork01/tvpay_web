@@ -13,6 +13,19 @@
     background:#dedede;
 }
 
+// --------------- NotFound -----------------
+
+.not-found{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:1.6rem;
+    font-weight: 900;
+
+}
+
 // --------------Login & Register LR-Header --------------
 
 .LR-header{
@@ -1780,7 +1793,7 @@
                 display:flex;
                 align-items: center;
 
-                img{
+                .shop-img{
 
                     width: 80px;
                     height: 80px;
@@ -1970,14 +1983,14 @@
 .checkout{
 
     width: 1200px;
-    padding:0px 0 10px 0;
+    padding:20px 0 20px 0;
     margin:auto;
 
     
 
     .check-header{
 
-        margin:20px 0 0 0;
+        
 
        .check-title{
 
@@ -2016,10 +2029,12 @@
                 display:flex;
                 align-items: center;
 
-                img{
+                .check-img{
+
                     width: 80px;
                     height: 80px;
                     margin:0 20px;
+
                 }
 
                 .check-text{
@@ -2071,6 +2086,7 @@
                 padding:16px 30px;
                 display:flex;
                 width: 480px;
+                border-right:1px solid #dedede;
 
                 span{
 
@@ -2192,9 +2208,93 @@
             justify-content: space-between;
             background: #fff;
             padding:0 20px;
+            border-bottom: 1px solid #dedede;
 
         }
 
+    }
+
+
+    .check-pay{
+
+        width: 1200px;
+        margin:20px 0 0 0;
+
+        .check-pay-title{
+
+            display:flex;
+            align-items: center;
+            height: 90px;
+            padding:10px 30px 20px;
+            background: #fff;
+            border-bottom:1px solid #dedede;
+
+            .pay-the-way{
+
+                width: 200px;
+            }
+
+            .button{
+
+                margin:10px 8px 0 0;
+                padding:4px 12px;
+                box-shadow: none;
+            }
+
+            .button:focus{
+
+                color:red;
+                border:1px solid red;
+
+            }
+        }
+
+        .check-all-money{
+
+            padding:15px 0;
+            display:flex;
+            flex-direction: column;
+            align-items: flex-end;
+            background: #fffefb;
+            border-bottom: 1px dashed #dedede;
+
+            .check-money{
+
+                display:flex;
+                height: 50px;
+                align-items: center;
+                
+
+                p{
+                    padding:0 25px 0 10px;
+                    width:135px;
+                    text-align: right;
+                }
+
+                .settlement{
+
+                    color:red;
+                    font-size:28px;
+                }
+
+            }
+        }
+
+        .check-neworder{
+
+            height: 100px;
+            background: #fffefb;
+            display:flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding:0 20px;
+
+            button{
+
+                width:200px;
+            }
+
+        }
     }
 
     .coupon-icon{
@@ -2204,5 +2304,37 @@
         
     }
 
+}
 
+
+// ------------------ MemberCentre ----------------------
+
+.membercentre{
+
+    width:1200px;
+    height: 800px;
+    padding:140px 0 0 0;
+    margin:auto;
+    display:flex;
+
+    .membermenu{
+
+        width: 180px;
+        border:1px solid red;
+
+        .member-header{
+
+            display:flex;
+            align-items: center;
+        }
+
+        .member-img{
+
+            width: 50px;
+            height: 50px;
+            border-radius:50%;
+            border:1px solid blue;
+
+        }
+    }
 }
