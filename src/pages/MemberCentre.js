@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from './Layout'
 import { BrowserRouter , Switch ,Route } from 'react-router-dom'
 import MemberMenu from '../components/MemberCentre/MemberMenu'
+import MemberTrack from '../components/MemberCentre/MemberTrack'
 
 class MemberCentre extends React.Component{
 

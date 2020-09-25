@@ -1,15 +1,15 @@
 import React from 'react'
 
 
-class MemberAccount extends React.Component{
+class MemberTrack extends React.Component{
 
 
     render(){
 
         return(
             <>
-            <div className="MemberAccount">
-
+            <div className="membertrack">
+            
             </div>
             </>
         )
@@ -17,4 +17,4 @@ class MemberAccount extends React.Component{
 }
 
 
-export default MemberAccount
+export default MemberTrack

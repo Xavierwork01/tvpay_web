@@ -2326,15 +2326,62 @@
 
             display:flex;
             align-items: center;
+            height: 80px;
+            padding:20px 0;
+            
+
+            p{
+                width: 120px;
+                text-align: center;
+            }
+
         }
 
         .member-img{
 
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius:50%;
-            border:1px solid blue;
+
+            img{
+                width: 100%;
+                height: 60px;
+            }
 
         }
+
+        .member-items{
+
+            height: 50px;
+            padding:10px;
+            display:flex;
+            align-items: center;
+
+        }
+
+        .member-items:hover{
+
+            color:red;
+
+        }
+
+        
+        .member-icon{
+
+            font-size:18px;
+            margin:0 10px 0 0;
+
+        }
+        
+
     }
+
+    .memebertrack{
+
+        width: 1000px;
+        border:1px solid blue;
+        
+    }
+
+
 }
