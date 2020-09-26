@@ -1,14 +1,14 @@
 import React from 'react'
 
 
-class MemberAccount extends React.Component{
+class UserAccount extends React.Component{
 
 
     render(){
 
         return(
             <>
-            <div className="memberaccount">
+            <div className="useraccount">
 
             </div>
             </>
@@ -17,4 +17,4 @@ class MemberAccount extends React.Component{
 }
 
 
-export default MemberAccount
+export default UserAccount

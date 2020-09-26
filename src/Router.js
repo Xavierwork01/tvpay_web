@@ -9,8 +9,9 @@ import ProductDetail from './pages/ProductDetail'
 import SpecialProducts from './pages/SpecialProducts'
 import CheckOut from './pages/CheckOut'
 import ShoppingCart from './pages/ShoppingCart'
-import MemberCentre from './pages/MemberCentre'
-import MemberTrack from './components/MemberCentre/MemberTrack'
+import User from './pages/User'
+import UserLike from './components/User/UserLike'
+import TrackContent from './components/User/Like/TrackContent'
 
 const Router = () => (
     <BrowserRouter>
@@ -23,9 +24,8 @@ const Router = () => (
             <Route path="/specialproducts" component={SpecialProducts} />
             <Route path="/checkout" component={CheckOut} />
             <Route path="/shoppingcart" component={ShoppingCart} />
-            <Route path="/membercentre" component={MemberCentre} />
-            <Route path="/membercentre/track" component={MemberTrack} />
-
+            <Route path="/user" component={User} />
+            <Route path="/user/like" component={UserLike} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>

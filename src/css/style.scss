@@ -151,7 +151,7 @@
             }
             
         }
-        .login-newmember{
+        .login-newuser{
             text-align:center;
             line-height: 50px;
             span{
@@ -2307,9 +2307,9 @@
 }
 
 
-// ------------------ MemberCentre ----------------------
+// ------------------ userCentre ----------------------
 
-.membercentre{
+.user-wrapper{
 
     width:1200px;
     height: 800px;
@@ -2317,11 +2317,11 @@
     margin:auto;
     display:flex;
 
-    .membermenu{
+    .usermenu{
 
         width: 180px;
 
-        .member-header{
+        .user-header{
 
             display:flex;
             align-items: center;
@@ -2345,14 +2345,21 @@
                 height: 20px;
 
                 span{
+
                     font-size:14px;
                 }
 
             }
 
+            .button:hover{
+
+                color:red;
+
+            }
+
         }
 
-        .member-img{
+        .user-img{
 
             width: 60px;
             height: 60px;
@@ -2365,7 +2372,7 @@
 
         }
 
-        .member-items{
+        .user-items{
 
             height: 50px;
             padding:10px;
@@ -2374,14 +2381,20 @@
 
         }
 
-        .member-items:hover{
+        .user-items:hover{
+
+            color:red;
+
+        }
+
+        .user-items:focus{
 
             color:red;
 
         }
 
         
-        .member-icon{
+        .user-icon{
 
             font-size:18px;
             margin:0 10px 0 0;
@@ -2391,18 +2404,19 @@
 
     }
 
-    .membertrack, .memberaccount{
+    .userlike, .useraccount{
 
         width: 1000px;
         background: #fff;
         
 
-        .track-state{
+        .like-state{
 
             width: 100%;
             border-bottom:0.5px solid #dedede;
+            margin:0px;
 
-            .my-track{
+            .my-like{
 
                 text-align:center;
                 line-height: 50px;
@@ -2410,7 +2424,7 @@
         
             }
         
-            .my-track:focus{
+            .my-like:focus{
         
                 border-bottom:2px solid red;
                 color: red;
@@ -2418,12 +2432,143 @@
             }
             
         }
+
+        .track-content{
+
+
+            .track-title{
+
+                padding:0 20px;
+                margin:0px;
+                height: 50px;
+                display:flex;
+                align-items: center;
+                // border-top:1px solid #dedede;
+                border-bottom:1px solid #dedede;
+
+                .is-half{
+
+                    display:flex;
+                    align-items: center;
+
+                }
+
+                .is-half > input{
+
+                    margin:0 20px 0 0;
+                    width: 18px;
+                    height: 18px;
+
+                }
+
+            }
+
+            .track-title > .price , .operating{
+
+                text-align:center;
+
+            }
+
+
+            .track-pro{
+
+                display:flex;
+                align-items: center;
+                padding:10px 20px;
+                margin:0;
+                border-bottom:1px solid #dedede;
+
+                .is-half{
+
+                    display:flex;
+                    align-items: center;
+
+                    input{
+
+                        margin:0 20px 0 0;
+                        width: 18px;
+                        height: 18px;
+
+                    }
+
+                    .track-img{
+
+                        width: 80px;
+                        height: 80px;
+
+                    }
+
+                    p{
+
+                        width:300px;
+                        text-align:center;
+                        overflow:hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 2;
+                        -webkit-box-orient: vertical;
+                        white-space: normal;
+
+                    }
+
+
+                }
+
+                .price , .operating{
+
+                    text-align:center;
+
+                }
+
+
+            }
+
+
+        }
     
     }
 
-    
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .user-page{
+                
+        height:50px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+        .button{
+
+            box-shadow: none;
+            margin:0 5px;
+            
+        }
+
+        .btn-num:focus{
+
+            background: #000;
+            color:#fff;
+            border:none;
+            
+        }
+
+
+    }
+
+
 
 }
