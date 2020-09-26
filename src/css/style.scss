@@ -2320,7 +2320,6 @@
     .membermenu{
 
         width: 180px;
-        border:1px solid red;
 
         .member-header{
 
@@ -2332,7 +2331,23 @@
 
             p{
                 width: 120px;
+                font-size:14px;
                 text-align: center;
+            }
+
+            .button{
+
+                width: 120px;
+                border:none;
+                box-shadow: none;
+                background: transparent;
+                padding:0px;
+                height: 20px;
+
+                span{
+                    font-size:14px;
+                }
+
             }
 
         }
@@ -2376,12 +2391,39 @@
 
     }
 
-    .memebertrack{
+    .membertrack, .memberaccount{
 
         width: 1000px;
-        border:1px solid blue;
+        background: #fff;
         
+
+        .track-state{
+
+            width: 100%;
+            border-bottom:0.5px solid #dedede;
+
+            .my-track{
+
+                text-align:center;
+                line-height: 50px;
+                height: 50px;
+        
+            }
+        
+            .my-track:focus{
+        
+                border-bottom:2px solid red;
+                color: red;
+        
+            }
+            
+        }
+    
     }
 
+    
+
+
+    
 
 }

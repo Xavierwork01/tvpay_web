@@ -4,6 +4,8 @@ import { FaTicketAlt , FaHeart , FaRegKissWinkHeart } from 'react-icons/fa'
 import { IoMdHelpCircleOutline } from 'react-icons/io'
 import { GoCreditCard } from 'react-icons/go'
 import { BsWallet } from 'react-icons/bs'
+import { BiPencil } from 'react-icons/bi'
+import { Link } from 'react-router-dom'
 
 
 class MemberMenu extends React.Component{
@@ -21,17 +23,21 @@ class MemberMenu extends React.Component{
                     <div>
                         <p>username</p>
                         <p>TV18050001</p>
+                        <a href="#" className="button">
+                            <BiPencil className="track-icon"/>
+                            <span>編輯個人資料</span>
+                        </a>
                     </div>
                 </div>
                 <div className="member-content">
-                    <a href="#" className="member-items">
+                    <Link to="/membercentre/track" href="#" className="member-items">
                         <FaHeart className="member-icon"/>
                         <p>追蹤 | 足跡</p>
-                    </a>
-                    <a href="#" className="member-items">
+                    </Link>
+                    <Link to="/membercentre/account" href="#" className="member-items">
                         <FaRegKissWinkHeart className="member-icon"/>
                         <p>我的愛牌</p>
-                    </a>
+                    </Link>
                     <a href="#" className="member-items">
                         <RiVipLine className="member-icon"/>
                         <p>會員福利</p>

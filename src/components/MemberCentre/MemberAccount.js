@@ -8,7 +8,7 @@ class MemberAccount extends React.Component{
 
         return(
             <>
-            <div className="MemberAccount">
+            <div className="memberaccount">
 
             </div>
             </>
