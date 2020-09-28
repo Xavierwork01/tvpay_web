@@ -8,7 +8,11 @@ class HistoryContent extends React.Component{
 
         return(
             <>
-            <div className="HistoryContent"></div>
+            <div className="history">
+                <div className="">
+                    
+                </div>
+            </div>
             </>
         )
     }

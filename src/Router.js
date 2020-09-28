@@ -11,7 +11,8 @@ import CheckOut from './pages/CheckOut'
 import ShoppingCart from './pages/ShoppingCart'
 import User from './pages/User'
 import UserLike from './components/User/UserLike'
-import TrackContent from './components/User/Like/TrackContent'
+import UserBrand from './components/User/UserBrand'
+
 
 const Router = () => (
     <BrowserRouter>
@@ -26,6 +27,7 @@ const Router = () => (
             <Route path="/shoppingcart" component={ShoppingCart} />
             <Route path="/user" component={User} />
             <Route path="/user/like" component={UserLike} />
+            <Route path="/user/brand" component={UserBrand} />
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>

@@ -76,7 +76,7 @@
 .login-wrapper {
     width: 100%;
     position: relative;
-    padding:120px 0 500px 0;
+    padding:120px 0 0 0;
     .login-box{
         width:500px;
         height: 475px;
@@ -170,7 +170,7 @@
     width:100%;
     height: 468px;
     padding:0;
-    position: absolute;
+    // position: absolute;
     // bottom:0;
     hr{
         margin:0 auto;
@@ -1099,22 +1099,7 @@
     }
 }
 
-.product-fade-enter{
-    opacity: 0.1;
-}
 
-.product-fade-enter-active{
-    opacity: 1;
-    transition:all 0.3s ease-in
-}
-.product-fade-exit{
-    opacity: 1;
-}
-
-.product-fade-exit-active{
-    opacity: 0.1;
-    transition:all 0.3 ease-in;
-}
 
 
 // ------------------- ProductDetail ----------------------
@@ -2307,14 +2292,15 @@
 }
 
 
-// ------------------ userCentre ----------------------
+// ------------------ User ----------------------
 
 .user-wrapper{
 
     width:1200px;
     height: 800px;
-    padding:140px 0 0 0;
+    padding:140px 0 0 0; 
     margin:auto;
+    margin-bottom:20px;
     display:flex;
 
     .usermenu{
@@ -2404,6 +2390,8 @@
 
     }
 
+// ----------------- UserLike -------------------
+
     .userlike, .useraccount{
 
         width: 1000px;
@@ -2432,6 +2420,8 @@
             }
             
         }
+
+// ------------------- User > track -------------------
 
         .track-content{
 
@@ -2525,11 +2515,353 @@
             }
 
 
+            .trackpro-ani-enter{
+                opacity: 0.1;
+            }
+            
+            .trackpro-ani-enter-active{
+                opacity: 1;
+                transition:all 0.3s ease-in
+            }
+            .trackpro-ani-exit{
+                opacity: 1;
+            }
+            
+            .trackpro-ani-exit-active{
+                opacity: 0.1;
+                transition:all 0.3 ease-in;
+            }
+
         }
     
+// -------------------- user > brand ---------------------
+
+        .brand-content{
+
+            .brand-chk{
+                width: 18px;
+                height: 18px;
+            }
+
+            .brand-title{
+
+                width: 100%;
+                height: 50px;
+                padding:0 20px;
+                display:flex;
+                align-items: center;
+                border-bottom:1px solid #dedede;
+                justify-content: space-between;
+
+
+                .del-box{
+
+                    display:flex;
+                    align-items: center;
+                }
+
+                p{
+
+                    margin:0 20px 0 0;
+
+                }
+
+                .button{
+
+                    box-shadow: none;
+                    margin:0 0 0 10px;
+
+                }
+
+            }
+            .brand-box{
+
+                width: 100%;
+                display:flex;
+                flex-wrap: wrap;
+                margin:0px;
+
+            }
+
+            .brand-link{
+
+                border:1px solid #dedede;
+               
+
+                .box-tool{
+                    
+                    display:flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding:5px;
+
+
+                    .button{
+
+                        width: 50px;
+                        height: 30px;
+                        font-size:14px;
+                    }
+
+                }
+
+                img{
+                    width: 100%;
+                    height: 100px;
+
+                }
+
+                
+            }
+        }
     }
 
 
+// -------------------  User > order -------------------
+
+    .userorder{
+        
+        width: 1000px;
+        background: #fff;
+
+        .order-title{
+
+            height: 50px;
+            border-bottom: 1px solid #dedede;
+            display:flex;
+            align-items: center;
+            padding:0 20px;
+
+        }
+
+        .order-pro{
+
+            .order-header{
+
+                height: 50px;
+                display:flex;
+                align-items: center;
+                padding:0 20px;
+                border-bottom:1px solid #dedede;
+
+                .logo-img{
+
+                    width:45px;
+                    height: 45px;
+                    margin:0 10px 0 0;
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                }
+
+                p{
+
+                    margin:0 10px 0 0;
+
+                }
+
+                .button{
+
+                    margin:0 10px 0 0;
+
+                }
+
+
+            }
+
+            .order-content{
+
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                padding:0 20px;
+                height: 100px;
+                border-bottom:1px solid #dedede;
+
+                .order-link{
+
+                    display:flex;
+                    align-items: center;
+
+                }
+
+                .order-img{
+
+                    width:80px;
+                    height: 80px;
+
+                    img{
+
+                        width: 100%;
+                        height: 100%;
+
+                    }
+
+                }
+
+                .order-name{
+
+                    margin:0 20px;
+
+                }
+
+                .price-del{
+
+                    text-decoration:line-through;
+
+                }
+
+                .price-sales{
+
+                    color:red;
+
+                }
+
+            }
+
+            .order-cost{
+
+                display:flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-end;
+                height: 50px;
+                padding:0 20px;
+
+                .cost-box{
+
+                    display:flex;
+                    align-items: center;
+
+                    p{
+
+                        font-size:30px;
+                        color:red;
+
+                    }
+
+                }
+
+            }
+
+            .order-buy{
+
+                height:50px;
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                padding:0 20px;
+                border-bottom:1px solid #dedede;
+
+                .order-btns{
+
+                    display:flex;
+                    align-items: center;
+
+                    .button{
+
+                        width:200px;
+                        
+                    }
+
+                    .btn1{
+
+                        margin:0 20px 0 0;
+                        
+                    }
+                    
+
+                }
+
+            }
+
+        }
+
+    }
+
+
+    // ------------------ User > Coupon ------------------
+
+
+    .usercoupon{
+
+        width: 1000px;
+        background: #fff;
+        padding:20px;
+
+        .coupon-title{
+
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            height:50px;
+            
+        }
+
+        a{
+
+            display:flex;
+            align-items: center;
+
+        }
+
+        .coupon-enter{
+
+            display:flex;
+            align-items: center;
+            background: #dedede;
+            justify-content: center;
+            height: 100px;
+
+            input{
+
+                width: 400px;
+                height: 40px;
+                font-size:0.875rem;
+
+            }
+
+            .button{
+
+                width: 100px;
+                height: 40px;
+                font-size:0.875rem;
+            }
+        }
+
+        .coupon-box{
+
+            .coupon-head{
+
+                background: orange;
+                width: 118px;
+                height: 118px;
+                position: relative;
+
+                .coupon-dots{
+
+                    position: absolute;
+                    left:-8px;
+
+                    .dot{
+
+                        width: 15px;
+                        height: 15px;
+                        margin:5px 0;
+                        background: #fff;
+                        border-radius: 50%;
+
+                    }
+                }
+
+            }
+        }
+
+
+    }
 
 
 

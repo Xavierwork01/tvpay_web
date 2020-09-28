@@ -1,14 +1,14 @@
 import React from 'react'
-import SectionBanner from '../components/Home/SectionBanner'
-import PackageBanner from '../components/Home/PackageBanner'
-import ClassBanner from '../components/Home/ClassBanner'
-import SectionTimeout from '../components/Home/SectionTimeout'
+import Section from '../components/Home/Section'
+import Package from '../components/Home/Package'
+import Class from '../components/Home/Class'
+import Timeout from '../components/Home/Timeout'
 import GroupBuy from '../components/Home/GroupBuy'
-import SkinnyBanner from '../components/Home/SkinnyBanner'
-import CarouselBanner from '../components/Home/CarouselBanner'
-import MostBanner from '../components/Home/MostBanner'
-import HotBanner from '../components/Home/HotBanner'
-import NewDayBanner from '../components/Home/NewDayBanner'
+import Skinny from '../components/Home/Skinny'
+import Carousel from '../components/Home/Carousel'
+import Most from '../components/Home/Most'
+import Hot from '../components/Home/Hot'
+import NewDay from '../components/Home/NewDay'
 import Layout from './Layout'
 
 
@@ -18,16 +18,16 @@ class Home extends React.Component{
         return (
             <Layout>
             <div className="home-page">
-                <SectionBanner/>
-                <PackageBanner/>
-                <ClassBanner/>
-                <SectionTimeout/>
+                <Section/>
+                <Package/>
+                <Class/>
+                <Timeout/>
                 <GroupBuy/>
-                <SkinnyBanner/>
-                <CarouselBanner/>
-                <MostBanner/>
-                <HotBanner/>
-                <NewDayBanner/>
+                <Skinny/>
+                <Carousel/>
+                <Most/>
+                <Hot/>
+                <NewDay/>
             </div>
             </Layout>
         )

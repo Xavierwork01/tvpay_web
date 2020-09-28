@@ -1,8 +1,13 @@
 import React from 'react'
 import { GrFormPrevious , GrFormNext } from 'react-icons/gr'
 import TrackPro from './TrackPro'
+import { CSSTransition , TransitionGroup } from 'react-transition-group'
 
 class TrackContent extends React.Component{
+
+    state = {
+        pro : [{id:1},{id:2},{id:3},{id:4},{id:5}]
+    }
 
 
     render(){
@@ -19,11 +24,13 @@ class TrackContent extends React.Component{
                         <div className="column price">價格</div>
                         <div className="column operating">操作</div>
                     </div>
-                    <TrackPro/>
-                    <TrackPro/>
-                    <TrackPro/>
-                    <TrackPro/>
-                    <TrackPro/>
+                {this.state.pro.map(v => 
+                <TransitionGroup component={null}>
+                    <CSSTransition timeout={1000} classNames="trackpro-ani">
+                            <TrackPro key={v.id}/>
+                    </CSSTransition>
+                </TransitionGroup>
+                )}
                 </div>
                 <div className="user-page">
                     <a href="#" className="button btn-prev">

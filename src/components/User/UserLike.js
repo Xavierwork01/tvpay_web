@@ -3,6 +3,7 @@ import { BrowserRouter , Switch ,Route , Redirect } from 'react-router-dom'
 import LikeState from './Like/LikeState'
 import TrackContent from './Like/TrackContent'
 import BrandContent from './Like/BrandContent'
+import HistoryContent from './Like/HistoryContent'
 
 
 
@@ -20,8 +21,11 @@ class UserLike extends React.Component{
                             <Route path="/user/like/track">
                                 <TrackContent/>
                             </Route>
-                            <Route path="/user/like/brand">
+                            <Route path="/user/brand">
                                 <BrandContent/>
+                            </Route>
+                            <Route path="/user/like/history">
+                                <HistoryContent/>
                             </Route>
                             <Redirect to="/user/like/track" />
                         </Switch>

@@ -34,7 +34,7 @@ class UserMenu extends React.Component{
                         <FaHeart className="user-icon"/>
                         <p>追蹤 | 足跡</p>
                     </Link>
-                    <Link to="/user/account" className="user-items">
+                    <Link to="/user/brand" className="user-items">
                         <FaRegKissWinkHeart className="user-icon"/>
                         <p>我的愛牌</p>
                     </Link>
@@ -42,14 +42,14 @@ class UserMenu extends React.Component{
                         <RiVipLine className="user-icon"/>
                         <p>會員福利</p>
                     </a>
-                    <a href="#" className="user-items">
+                    <Link to="/user/order" className="user-items">
                         <RiFilePaper2Line className="user-icon"/>
                         <p>訂單查詢</p>
-                    </a>
-                    <a href="#" className="user-items">
+                    </Link>
+                    <Link to="/user/coupon" className="user-items">
                         <FaTicketAlt className="user-icon"/>
                         <p>折價券</p>
-                    </a>
+                    </Link>
                     <a href="#" className="user-items">
                         <GoCreditCard className="user-icon"/>
                         <p>信用卡管理</p>
