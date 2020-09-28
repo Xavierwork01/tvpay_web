@@ -7,61 +7,61 @@ class MostBanner extends React.Component{
 
         return(
             <>
-            <div className="mostbanner">
-                <div className="mostbanner-header">熱門關鍵字</div>
-                <div className="mostbanner-content">
-                    <a href="#" className="mostbanner-box">
-                        <div className="mostbanner-text">
-                            <div className="mostbanner-text1">
+            <div className="most">
+                <div className="most-header">熱門關鍵字</div>
+                <div className="most-content">
+                    <a href="#" className="most-box">
+                        <div className="most-text">
+                            <div className="most-text1">
                                 <div>product</div>
                                 <div>mounts</div>
                             </div>
                         </div>
-                        <div className="mostbanner-img">
+                        <div className="most-img">
                             <img src=""></img>
                         </div>
                     </a>
-                    <a href="#" className="mostbanner-box">
-                        <div className="mostbanner-text">
-                            <div className="mostbanner-text1">
+                    <a href="#" className="most-box">
+                        <div className="most-text">
+                            <div className="most-text1">
                                 <div>product</div>
                                 <div>mounts</div>
                             </div>
                         </div>
-                        <div className="mostbanner-img">
+                        <div className="most-img">
                             <img src=""></img>
                         </div>
                     </a>
-                    <a href="#" className="mostbanner-box">
-                        <div className="mostbanner-text">
-                            <div className="mostbanner-text1">
+                    <a href="#" className="most-box">
+                        <div className="most-text">
+                            <div className="most-text1">
                                 <div>product</div>
                                 <div>mounts</div>
                             </div>
                         </div>
-                        <div className="mostbanner-img">
+                        <div className="most-img">
                             <img src=""></img>
                         </div>
                     </a>
-                    <a href="#" className="mostbanner-box">
-                        <div className="mostbanner-text">
-                            <div className="mostbanner-text1">
+                    <a href="#" className="most-box">
+                        <div className="most-text">
+                            <div className="most-text1">
                                 <div>product</div>
                                 <div>mounts</div>
                             </div>
                         </div>
-                        <div className="mostbanner-img">
+                        <div className="most-img">
                             <img src=""></img>
                         </div>
                     </a>
-                    <a href="#" className="mostbanner-box">
-                        <div className="mostbanner-text">
-                            <div className="mostbanner-text1">
+                    <a href="#" className="most-box">
+                        <div className="most-text">
+                            <div className="most-text1">
                                 <div>product</div>
                                 <div>mounts</div>
                             </div>
                         </div>
-                        <div className="mostbanner-img">
+                        <div className="most-img">
                             <img src=""></img>
                         </div>
                     </a>

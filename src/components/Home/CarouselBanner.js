@@ -13,8 +13,8 @@ class CarouselBanner extends React.Component{
 
         return(
             <>
-            <div className="carouselbanner">
-                <div className="carouselbanner-header">
+            <div className="carousel">
+                <div className="carousel-header">
                     <a href="#">商城</a>
                     <div className="">
                         <span>-----</span>
@@ -23,7 +23,7 @@ class CarouselBanner extends React.Component{
                     </div>
                     <a href="">查看全部 &gt;</a>
                 </div>
-                <a className="carouselbanner-banner">
+                <a className="carousel-banner">
                     <div className="">
                         <img src=""></img>
                     </div>
@@ -38,130 +38,130 @@ class CarouselBanner extends React.Component{
                     disableOnInteraction:false
                 }}
                 speed={1000}
-                className="carouselbanner-items"
+                className="carousel-items"
                 >
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>
                             <div>Product</div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="carouselbanner-slider">
-                        <div className="carouselbanner-box">
+                    <SwiperSlide className="carousel-slider">
+                        <div className="carousel-box">
                             <a href="#">
                                 <img src=""></img>
                             </a>

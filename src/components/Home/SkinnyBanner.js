@@ -10,14 +10,14 @@ class SkinnyBanner extends React.Component{
 
         return(
             <>
-            <div className="skinnybanner">
-                <a href="" className="skinnybanner-link">
-                    <div className="skinnybanner-box">
+            <div className="skinny">
+                <a href="" className="skinny-link">
+                    <div className="skinny-box">
                         <img src=""></img>
                     </div>
                 </a>
-                <a href="" className="skinnybanner-link">
-                    <div className="skinnybanner-box">
+                <a href="" className="skinny-link">
+                    <div className="skinny-box">
                         <img src=""></img>
                     </div>
                 </a>

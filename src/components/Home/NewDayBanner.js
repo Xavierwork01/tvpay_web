@@ -9,16 +9,16 @@ class NewDayBanner extends React.Component{
 
         return (
             <>
-            <div className="newdaybanner">
-                <nav className="newdaybanner-nav">
+            <div className="newday">
+                <nav className="newday-nav">
                     <ul>
                         <li><a>每日新發現</a></li>
                         <li><a>items</a></li>
                     </ul>
                 </nav>
-                <div className="newdaybanner-products">
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                <div className="newday-products">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -34,8 +34,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -51,8 +51,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -68,8 +68,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -85,8 +85,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -102,8 +102,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -119,8 +119,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -136,8 +136,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -153,8 +153,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -170,8 +170,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -187,8 +187,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -204,8 +204,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -221,8 +221,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -238,8 +238,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -255,8 +255,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -272,8 +272,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -289,8 +289,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -306,8 +306,8 @@ class NewDayBanner extends React.Component{
                             </div>
                         </div>
                     </a>
-                    <a className="newdaybanner-card">
-                        <div className="card newdaybanner-cardbox">
+                    <a className="newday-card">
+                        <div className="card newday-cardbox">
                             <div class="card-image">
                                 <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image"/>
                             </div>
@@ -326,7 +326,7 @@ class NewDayBanner extends React.Component{
                     
                     
                 </div>
-                <div className="newdaybanner-more">
+                <div className="newday-more">
                     <button className="button">查看更多</button>
                 </div>
             </div>

@@ -437,11 +437,11 @@
 }
 
 
-//------------------------ packagebanner -------------------------
-.packagebanner{
+//------------------------ package -------------------------
+.package{
     width: 100%;
     margin:20px 0 0 0;
-    .packagebanner-content{
+    .package-content{
         max-width:1200px;
         height: 110px;
         margin:auto;
@@ -455,27 +455,27 @@
 
 // --------------------- sectionclass -----------------------
 
-.classbanner{
+.class{
     width: 100%;
     height: 382px;
-    .classbanner-box{
+    .class-box{
         width: 1200px;
         padding:20px 0 0 0;
         margin:auto;
         
-        .classbanner-header{
+        .class-header{
             height: 61px;
             padding:0 20px;
             line-height: 61px;
             background: #fff;
         }
-        .classbanner-items{
+        .class-items{
             height: 300px;
             background: #fff;
-            .classbanner-item-top{
+            .class-item-top{
                 display:flex;
             }
-            .classbanner-item-down{
+            .class-item-down{
                 display:flex;
             }
         }
@@ -483,7 +483,7 @@
 }
 
 
-.classbanner-column{
+.class-column{
     width: 120px;
     height: 150px;
     display: flex;
@@ -492,7 +492,7 @@
     align-items: center;
     margin:0;
     border:0.5px solid #dedede;
-    .classbanner-img{
+    .class-img{
         width: 83px;
         height: 76px;
         img{
@@ -500,22 +500,22 @@
             height: 100%;
         }
     }
-    .classbanner-name{
+    .class-name{
         margin:10px 0;
     }
 }
-.classbanner-column:hover{
+.class-column:hover{
     box-shadow:0px 0px 1px #000;
 }
 
-// ------------- sectiontimeout ---------------
+// ------------- SectionTimeout ---------------
 
-.sectiontimeout{
+.timeout{
     width:1200px;
     height: 321px;
     padding:20px 0 0 0;
     margin:auto;
-    .sectiontimeout-header{
+    .timeout-header{
         width: 100%;
         height: 61px;
         display:flex;
@@ -524,7 +524,7 @@
         background: #fff;
         padding:0 20px;
 
-        .sectiontimeout-sales{
+        .timeout-sales{
             display:flex;
 
             .saletime-text{
@@ -546,7 +546,7 @@
         }
     }
     
-    .sectiontimeout-items{
+    .timeout-items{
         
         background:#fff;
 
@@ -562,7 +562,7 @@
                 
             }
 
-            .sectiontimeout-img{
+            .timeout-img{
                 width: 173px;
                 height: 173px;
                 img{
@@ -574,7 +574,7 @@
     }
 }
 
-.sectiontimeout-price{
+.timeout-price{
     color:orangered;
 }
 
@@ -651,9 +651,9 @@
 }
 
 
-// ----------------- skinnybanner ------------------
+// ----------------- SkinnyBanner ------------------
 
-.skinnybanner{
+.skinny{
     width: 1200px;
     height: 140px;
     margin:auto;
@@ -674,14 +674,14 @@
 
 // ---------------- CarouseBanner --------------------
 
-.carouselbanner{
+.carousel{
     width: 1200px;
     height: 503px;
     margin:auto;
     display:flex;
     padding:20px 0 0 0;
     flex-wrap:wrap;
-    .carouselbanner-header{
+    .carousel-header{
         width: 100%;
         height: 28px;
         display:flex;
@@ -691,7 +691,7 @@
             width: 1010px;
         }
     }
-    .carouselbanner-banner{
+    .carousel-banner{
         width: 400px;
         height: 472px;
         padding:10px 0 10px 10px;
@@ -705,17 +705,17 @@
             }
         }
     }
-    .carouselbanner-items{
+    .carousel-items{
         background: #fff;
         width: 800px;
         height: 472px;
-        .carouselbanner-slider{
+        .carousel-slider{
             height: 236px;
             text-align:center;
             
             // border:1px solid red;
             
-            .carouselbanner-box{
+            .carousel-box{
                 width: 180px;
                 height: 216px;
                 padding:10px;
@@ -739,39 +739,39 @@
 }
 // ------------------ MostBanner -------------------
 
-.mostbanner{
+.most{
     
     width: 1200px;
     height: 181px;
     padding:20px 0 0 0;
     margin:auto;
-    .mostbanner-header{
+    .most-header{
         width: 100%;
         height: 61px;
         line-height: 61px;
         padding:0 20px;
         background:#fff;
     }
-    .mostbanner-content{
+    .most-content{
         width: 100%;
         height: 100px;
         display:flex;
         background: #fff;
-        .mostbanner-box{
+        .most-box{
             width: 240px;
             height: 100px;
             display:flex;
             padding:0 10px 0 0;
             border:0.5px solid #dedede;
             
-            .mostbanner-text{
+            .most-text{
                 width: 129.5px;
                 height: 99.5px;
-                .mostbanner-text1{
+                .most-text1{
                     padding:20px 10px 20px 20px;
                 }
             }
-            .mostbanner-img{
+            .most-img{
                 width: 99.5px;
                 height: 99.5px;
                 img{
@@ -784,14 +784,14 @@
 }
 
 
-// ---------------- hotbanner ------------------
+// ---------------- hot ------------------
 
-.hotbanner{
+.hot{
     width: 1200px;
     height: 406px;
     padding:20px 0 0 0;
     margin:auto;
-    .hotbanner-header{
+    .hot-header{
         height: 61px;
         padding:0 20px;
         display:flex;
@@ -802,19 +802,19 @@
             color:red;
         }
     }
-    .hotbanner-content{
+    .hot-content{
         background: #fff;
             
-        .hotbanner-link{
+        .hot-link{
             width:338px;
             height:268px;
             padding:30px 30px 25px;
-            .hotbanner-img{
+            .hot-img{
                 width:333px;
                 height:224px;
                 margin:0 5px 0 0;
                 display:flex;
-                .hotbanner-pic1{
+                .hot-pic1{
                     width: 224px;
                     height: 224px;
                     padding:0 5px 0 0;
@@ -823,7 +823,7 @@
                         height: 224px;
                     }
                 }
-                .hotbanner-pic2{
+                .hot-pic2{
                     width:109px;
                     img{
                         width: 109px;
@@ -831,7 +831,7 @@
                     }
                 }
             }
-            .hotbanner-text{
+            .hot-text{
                 margin:23px 0 0 0;
             }
         }
@@ -839,11 +839,11 @@
 }
 
 // ------------------- NewDayBanner --------------------
-.newdaybanner{
+.newday{
     width: 1200px;
     margin:auto;
     padding:20px 0 0 0;
-    .newdaybanner-nav{
+    .newday-nav{
         width: 1200px;
         height: 61px;
         padding:0 20px;
@@ -855,18 +855,18 @@
             line-height: 61px;
         }
     }
-    .newdaybanner-products{
+    .newday-products{
         width: 1200px;
         margin:5px auto;
         display:flex;
         flex-wrap:wrap;
     }
-    .newdaybanner-card{
+    .newday-card{
         width: 200px;
         height: 285px;
         padding:0 5px;
         
-        .newdaybanner-cardbox{
+        .newday-cardbox{
             width: 190px;
             height: 275px;
             padding:0;
@@ -903,7 +903,7 @@
         
     }
 
-    .newdaybanner-more{
+    .newday-more{
         width: 1200px;
         margin:auto;
         display:flex;

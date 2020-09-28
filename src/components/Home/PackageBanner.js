@@ -8,8 +8,8 @@ class PackageBanner extends React.Component{
 
         return (
             <>
-            <div className="packagebanner">
-                <div className="packagebanner-content">
+            <div className="package">
+                <div className="package-content">
                     <img src="" className=""></img>
                 </div>
             </div>

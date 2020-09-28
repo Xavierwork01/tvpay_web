@@ -52,9 +52,9 @@ class SectionTimeout extends React.Component{
         //     });
         return(
             <>
-            <div className="sectiontimeout">
-                <div className="sectiontimeout-header">
-                    <div className="sectiontimeout-sales">
+            <div className="timeout">
+                <div className="timeout-header">
+                    <div className="timeout-sales">
                         <div className="saletime-text">限時特賣</div>
                         <div className="saletime-box">
                             <div className="time-hr"></div>:
@@ -72,90 +72,90 @@ class SectionTimeout extends React.Component{
                     disableOnInteraction:false
                 }}
                 speed={1000}
-                className="sectiontimeout-items"
+                className="timeout-items"
                 width={1200}
                 height={240}
                 
                 >
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slider-box">
-                        <a href="#" className="sectiontimeout-product">
-                        <div className="sectiontimeout-img">
+                        <a href="#" className="timeout-product">
+                        <div className="timeout-img">
                             <img src=""></img>
                         </div>
-                        <div className="sectiontimeout-price">$600</div>
-                        <button className="sectiontimeout-saled">已售出0</button>
+                        <div className="timeout-price">$600</div>
+                        <button className="timeout-saled">已售出0</button>
                         </a>
                     </SwiperSlide>
                 </Swiper>

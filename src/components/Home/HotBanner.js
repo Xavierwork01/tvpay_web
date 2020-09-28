@@ -12,8 +12,8 @@ class HotBanner extends React.Component{
 
         return(
             <>
-            <div className="hotbanner">
-                <div className="hotbanner-header">
+            <div className="hot">
+                <div className="hot-header">
                     <div>熱門商品</div>
                     <a href="#">查看全部 &gt;</a>
                 </div>
@@ -27,101 +27,101 @@ class HotBanner extends React.Component{
                 slidesPerView={3}
                 width={1200}
                 height={325}
-                className="hotbanner-content"
+                className="hot-content"
                 >
-                    <SwiperSlide className="hotbanner-box">
+                    <SwiperSlide className="hot-box">
                         <a href="#">
-                            <div className="hotbanner-link">
-                                <div className="hotbanner-img">
-                                    <div className="hotbanner-pic1">
+                            <div className="hot-link">
+                                <div className="hot-img">
+                                    <div className="hot-pic1">
                                         <img src=""></img>
                                     </div>
-                                    <div className="hotbanner-pic2">
+                                    <div className="hot-pic2">
                                         <img src=""></img>
                                         <img src=""></img>
                                     </div>
                                 </div>
-                                <div className="hotbanner-text">熱門專區</div>
+                                <div className="hot-text">熱門專區</div>
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide className="hotbanner-box">
+                    <SwiperSlide className="hot-box">
                         <a href="#">
-                            <div className="hotbanner-link">
-                                <div className="hotbanner-img">
-                                    <div className="hotbanner-pic1">
+                            <div className="hot-link">
+                                <div className="hot-img">
+                                    <div className="hot-pic1">
                                         <img src=""></img>
                                     </div>
-                                    <div className="hotbanner-pic2">
+                                    <div className="hot-pic2">
                                         <img src=""></img>
                                         <img src=""></img>
                                     </div>
                                 </div>
-                                <div className="hotbanner-text">熱門專區</div>
+                                <div className="hot-text">熱門專區</div>
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide className="hotbanner-box">
+                    <SwiperSlide className="hot-box">
                         <a href="#">
-                            <div className="hotbanner-link">
-                                <div className="hotbanner-img">
-                                    <div className="hotbanner-pic1">
+                            <div className="hot-link">
+                                <div className="hot-img">
+                                    <div className="hot-pic1">
                                         <img src=""></img>
                                     </div>
-                                    <div className="hotbanner-pic2">
+                                    <div className="hot-pic2">
                                         <img src=""></img>
                                         <img src=""></img>
                                     </div>
                                 </div>
-                                <div className="hotbanner-text">熱門專區</div>
+                                <div className="hot-text">熱門專區</div>
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide className="hotbanner-box">
+                    <SwiperSlide className="hot-box">
                         <a href="#">
-                            <div className="hotbanner-link">
-                                <div className="hotbanner-img">
-                                    <div className="hotbanner-pic1">
+                            <div className="hot-link">
+                                <div className="hot-img">
+                                    <div className="hot-pic1">
                                         <img src=""></img>
                                     </div>
-                                    <div className="hotbanner-pic2">
+                                    <div className="hot-pic2">
                                         <img src=""></img>
                                         <img src=""></img>
                                     </div>
                                 </div>
-                                <div className="hotbanner-text">熱門專區</div>
+                                <div className="hot-text">熱門專區</div>
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide className="hotbanner-box">
+                    <SwiperSlide className="hot-box">
                         <a href="#">
-                            <div className="hotbanner-link">
-                                <div className="hotbanner-img">
-                                    <div className="hotbanner-pic1">
+                            <div className="hot-link">
+                                <div className="hot-img">
+                                    <div className="hot-pic1">
                                         <img src=""></img>
                                     </div>
-                                    <div className="hotbanner-pic2">
+                                    <div className="hot-pic2">
                                         <img src=""></img>
                                         <img src=""></img>
                                     </div>
                                 </div>
-                                <div className="hotbanner-text">熱門專區</div>
+                                <div className="hot-text">熱門專區</div>
                             </div>
                         </a>
                     </SwiperSlide>
-                    <SwiperSlide className="hotbanner-box">
+                    <SwiperSlide className="hot-box">
                         <a href="#">
-                            <div className="hotbanner-link">
-                                <div className="hotbanner-img">
-                                    <div className="hotbanner-pic1">
+                            <div className="hot-link">
+                                <div className="hot-img">
+                                    <div className="hot-pic1">
                                         <img src=""></img>
                                     </div>
-                                    <div className="hotbanner-pic2">
+                                    <div className="hot-pic2">
                                         <img src=""></img>
                                         <img src=""></img>
                                     </div>
                                 </div>
-                                <div className="hotbanner-text">熱門專區</div>
+                                <div className="hot-text">熱門專區</div>
                             </div>
                         </a>
                     </SwiperSlide>
