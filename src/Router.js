@@ -26,8 +26,8 @@ const Router = () => (
             <Route path="/checkout" component={CheckOut} />
             <Route path="/shoppingcart" component={ShoppingCart} />
             <Route path="/user" component={User} />
-            <Route path="/user/like" component={UserLike} />
-            <Route path="/user/brand" component={UserBrand} />
+            {/* <Route path="/user/like" component={UserLike} />
+            <Route path="/user/brand" component={UserBrand} /> */}
             <Route component={NotFound} />
         </Switch>
     </BrowserRouter>

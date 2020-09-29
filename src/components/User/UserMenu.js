@@ -25,7 +25,7 @@ class UserMenu extends React.Component{
                         <p>TV18050001</p>
                         <a href="#" className="button">
                             <BiPencil className="track-icon"/>
-                            <span>編輯個人資料</span>
+                            <Link to="/user/account" className="adit-account">編輯個人資料</Link>
                         </a>
                     </div>
                 </div>
@@ -54,10 +54,10 @@ class UserMenu extends React.Component{
                         <GoCreditCard className="user-icon"/>
                         <p>信用卡管理</p>
                     </a>
-                    <a href="#" className="user-items">
+                    <Link to="/user/receive" className="user-items">
                         <BsWallet className="user-icon"/>
                         <p>收件人管理</p>
-                    </a>
+                    </Link>
                     <a href="#" className="user-items">
                         <IoMdHelpCircleOutline className="user-icon"/>
                         <p>幫助中心</p>

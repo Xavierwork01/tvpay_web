@@ -1,12 +1,14 @@
 import React from 'react'
 import Layout from './Layout'
-import { BrowserRouter , Switch ,Route } from 'react-router-dom'
+import { BrowserRouter , Switch ,Route ,Redirect } from 'react-router-dom'
 import UserMenu from '../components/User/UserMenu'
 import UserLike from '../components/User/UserLike'
 import UserAccount from '../components/User/UserAccount'
 import UserBrand from '../components/User/UserBrand'
 import UserOrder from '../components/User/UserOrder'
 import UserCoupon from '../components/User/UserCoupon'
+import UserReceive from '../components/User/UserReceive'
+
 
 
 class User extends React.Component{
@@ -37,6 +39,10 @@ class User extends React.Component{
                         <Route path="/user/coupon">
                             <UserCoupon/>
                         </Route>
+                        <Route path="/user/receive">
+                            <UserReceive/>
+                        </Route>
+                        <Redirect to="/user/like/track" />
                     </Switch>
                 </div>
             </BrowserRouter>

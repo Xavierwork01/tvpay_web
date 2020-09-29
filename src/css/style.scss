@@ -228,7 +228,7 @@
     background: #000;
     position:fixed;
     top:0;
-    z-index:100;
+    z-index:2;
 }
 .header{
     width:1200px;
@@ -1482,6 +1482,8 @@
             }
         }
     }
+
+    
 }
 
 
@@ -2330,7 +2332,7 @@
                 padding:0px;
                 height: 20px;
 
-                span{
+                .adit-account{
 
                     font-size:14px;
                 }
@@ -2390,9 +2392,19 @@
 
     }
 
+// ----------------- UserAccount -----------------
+
+    .useraccount{
+
+        width: 1000px;
+        background: #fff;
+
+
+    }
+
 // ----------------- UserLike -------------------
 
-    .userlike, .useraccount{
+    .userlike{
 
         width: 1000px;
         background: #fff;
@@ -2617,7 +2629,7 @@
     }
 
 
-// -------------------  User > order -------------------
+// -------------------  UserOrder -------------------
 
     .userorder{
         
@@ -2783,7 +2795,7 @@
     }
 
 
-    // ------------------ User > Coupon ------------------
+    // ------------------ UserCoupon ------------------
 
 
     .usercoupon{
@@ -2993,7 +3005,94 @@
 
         }
 
+        .modal-content{
 
+            margin:0;
+
+            div{
+                margin:0 0 20px 0;
+            }
+
+            p{
+                width: 600px;
+                margin:0px;
+            }
+
+        }
+
+
+    }
+
+    // ----------------- UserReceive ------------------
+
+    .userreceive{
+
+        width:1000px;
+        background: #fff;
+
+        .receive-title{
+
+            height: 50px;
+            display:flex;
+            align-items: center;
+            padding:0 20px;
+            border-bottom:1px solid #dedede;
+            justify-content: flex-end;
+
+        }
+
+        .receive-msg{
+
+            height: 100px;
+            display:flex;
+            align-items: center;
+            padding:0 20px;
+            margin:0px;
+            border-bottom: 1px solid #dedede;
+
+            .receive-img{
+
+                width:80px;
+                height: 80px;
+
+                img{
+
+                    width: 100%;
+                    height: 100%;
+
+                }
+
+            }
+
+            .receive-text{
+
+                margin:0 0 0 20px;
+
+                p{
+                    font-size: 14px;
+                }
+
+            }
+
+
+            .receive-more{
+
+                text-align: center;
+
+                .button{
+
+                    box-shadow: none;
+
+                }
+
+                
+            }
+
+
+        }
+
+
+        
     }
 
 

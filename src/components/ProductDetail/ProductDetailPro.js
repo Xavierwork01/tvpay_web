@@ -1,10 +1,10 @@
 import React from 'react'
 import { Swiper , SwiperSlide } from 'swiper/react'
-import SwiperCode,{ Navigation , Pagination , Autoplay ,Thumbs} from 'swiper'
+import SwiperCode,{ Navigation , Pagination , Autoplay ,Thumbs, Zoom} from 'swiper'
 import '../../../node_modules/swiper/swiper-bundle.css'
 
 
-SwiperCode.use([Navigation , Pagination ,Autoplay ,Thumbs])
+SwiperCode.use([Navigation , Pagination ,Autoplay ,Thumbs ,Zoom])
 
 
 class ProductDetailPro extends React.Component{
@@ -29,37 +29,37 @@ class ProductDetailPro extends React.Component{
                             }}
                             watchSlidesVisibility={true}
                             simulateTouch={false}
-                            
+                            // zoom={true}
                             >
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/image1.png"/>
+                                    <img src="/images/image1.png" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/2.jpg"/>
+                                    <img src="/images/2.jpg" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/下載.jpg"/>
+                                    <img src="/images/下載.jpg" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/HtwPzgej.jpg"/>
+                                    <img src="/images/HtwPzgej.jpg" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/246x0w.png"/>
+                                    <img src="/images/246x0w.png" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/image1.png"/>
+                                    <img src="/images/image1.png" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/2.jpg"/>
+                                    <img src="/images/2.jpg" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/下載.jpg"/>
+                                    <img src="/images/下載.jpg" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/HtwPzgej.jpg"/>
+                                    <img src="/images/HtwPzgej.jpg" />
                                 </SwiperSlide>
                                 <SwiperSlide className="preview-box">
-                                    <img src="/images/246x0w.png"/>
+                                    <img src="/images/246x0w.png" />
                                 </SwiperSlide>
                             </Swiper>
                             <Swiper
@@ -172,12 +172,8 @@ class ProductDetailPro extends React.Component{
                                 <button className="button cart-btn1 is-white">加入購物車</button>
                                 <button className="button is-danger cart-btn2">直接購買</button>
                             </div>
-                            {/* <div className="productdetail-message">
-                                <div>15天鑑賞期</div>
-                                <div>退貨無負擔</div>
-                                <div>假一賠二</div>
-                            </div> */}
                         </div>
+                        
                     </div>
             </>
 

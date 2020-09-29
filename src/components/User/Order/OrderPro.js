@@ -21,7 +21,7 @@ class OrderPro extends React.Component{
                 <div className="order-content">
                     <a href="#" className="order-link">
                         <div className="order-img">
-                            <img src="" />
+                            <img src="/images/246x0w.png" />
                         </div>
                         <div className="order-name">
                             <p>8/17奪寶戰 Apple Airpods2 真無線耳機</p>
