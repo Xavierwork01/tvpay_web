@@ -51,18 +51,6 @@ class UserCoupon extends React.Component{
                     <div className="coupon-card">
                         <div className="coupon-head">
                             <p>TvPay</p>
-                            <div className="coupon-dot1">
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                            </div>
-                            <div className="coupon-dot2"></div>
-                            <div className="coupon-dot3"></div>
                         </div>
                         <div className="coupon-body">
                             <div className="coupon-text pr-5 pl-5">
@@ -75,18 +63,6 @@ class UserCoupon extends React.Component{
                     <div className="coupon-card">
                         <div className="coupon-head">
                             <p>TvPay</p>
-                            <div className="coupon-dot1">
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                            </div>
-                            <div className="coupon-dot2"></div>
-                            <div className="coupon-dot3"></div>
                         </div>
                         <div className="coupon-body">
                             <div className="coupon-text pr-5 pl-5">
@@ -99,18 +75,6 @@ class UserCoupon extends React.Component{
                     <div className="coupon-card">
                         <div className="coupon-head">
                             <p>TvPay</p>
-                            <div className="coupon-dot1">
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                            </div>
-                            <div className="coupon-dot2"></div>
-                            <div className="coupon-dot3"></div>
                         </div>
                         <div className="coupon-body">
                             <div className="coupon-text pr-5 pl-5">
@@ -123,18 +87,6 @@ class UserCoupon extends React.Component{
                     <div className="coupon-card">
                         <div className="coupon-head">
                             <p>TvPay</p>
-                            <div className="coupon-dot1">
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                            </div>
-                            <div className="coupon-dot2"></div>
-                            <div className="coupon-dot3"></div>
                         </div>
                         <div className="coupon-body">
                             <div className="coupon-text pr-5 pl-5">
@@ -147,18 +99,6 @@ class UserCoupon extends React.Component{
                     <div className="coupon-card">
                         <div className="coupon-head">
                             <p>TvPay</p>
-                            <div className="coupon-dot1">
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                            </div>
-                            <div className="coupon-dot2"></div>
-                            <div className="coupon-dot3"></div>
                         </div>
                         <div className="coupon-body">
                             <div className="coupon-text pr-5 pl-5">
@@ -171,18 +111,6 @@ class UserCoupon extends React.Component{
                     <div className="coupon-card">
                         <div className="coupon-head">
                             <p>TvPay</p>
-                            <div className="coupon-dot1">
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                            </div>
-                            <div className="coupon-dot2"></div>
-                            <div className="coupon-dot3"></div>
                         </div>
                         <div className="coupon-body">
                             <div className="coupon-text pr-5 pl-5">
@@ -192,6 +120,7 @@ class UserCoupon extends React.Component{
                             <a className="coupon-use" data-target="modal" onClick={this.open}>使用說明</a>
                         </div>
                     </div>
+                    
                 </div>
                 
 

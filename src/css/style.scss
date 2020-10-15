@@ -2339,7 +2339,7 @@
 
             }
 
-            .button:hover{
+            .button:hover , .adit-account:hover{
 
                 color:red;
 
@@ -2398,7 +2398,125 @@
 
         width: 1000px;
         background: #fff;
+        padding:0 30px 30px 30px;
+        height: 100%;
 
+        .account-head{
+
+            display:flex;
+            align-items: center;
+            height: 80px;
+            border-bottom:1px solid #dedede;
+
+            div{
+
+                div{
+
+                    font-size: 18px;
+
+                }
+
+                p{
+
+                    font-size:14px;
+                }
+
+
+            }
+
+        }
+
+        .account-content{
+
+            display:flex;
+
+
+            .account-info{
+
+                width:652px;
+
+            }
+
+            .account-sticker{
+
+                width: 281px;
+                margin:20px 0 0 0;
+                border-left:1px solid #dedede;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+
+
+                .sticker-img{
+
+                    width:150px;
+                    height: 150px;
+                    margin:20px;
+                    border-radius:50%;
+
+                    img{
+
+                        width: 100%;
+                        height: 100%;
+
+                    }
+
+                }
+
+                .file-label{
+
+                    font-size:14px;
+
+                }
+
+
+            }
+
+            .account-items{
+
+                display:flex;
+                height: 40px;
+                margin:20px 0 0 0;
+                align-items: center;
+
+                label{
+
+                    width:120px;
+                    text-align: right;
+                    padding:0 20px 0 0;
+
+                }
+
+                input{
+
+                    width:300px;
+
+                }
+
+                select{
+
+                    width: 100px;
+
+                }
+                
+            }
+
+            .account-save{
+
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                margin:20px 0 0 0;
+
+                button{
+
+                    width: 150px;
+
+                }
+
+            }
+
+        }
 
     }
 
@@ -2902,64 +3020,26 @@
 
                 .coupon-head{
 
-                    background: palevioletred;
                     width: 118px;
                     height: 118px;
                     position: relative;
+                    background:transparent;
+                    background-image:radial-gradient(circle at 1px 10px, transparent 5px,#dc3545 0px ,#dc3545 0px);
+                    background-size: 200px 18px;
+                    background-repeat-x: no-repeat;
 
                     p{
 
                         position: absolute;
                         top:calc(50% - 18px);
                         right:calc(50% - 40px);
-                        text-shadow: 1px 2px 2px;
+                        text-shadow: -1px -1px 1px #000;
                         font-size:24px;
                         font-weight:900;
-                        opacity: 0.5;
-                        // color:#fff;
+                        color:gray
 
                     }
 
-                    .coupon-dot1{
-
-                        position: absolute;
-                        left:-8px;
-
-                        .dot{
-
-                            width: 15px;
-                            height: 15px;
-                            margin:5px 0;
-                            background: #fff;
-                            border-radius: 50%;
-
-                        }
-
-                    }
-
-                    .coupon-dot2{
-
-                        position: absolute;
-                        width:20px;
-                        height: 20px;
-                        background:#fff;
-                        border-radius: 50%;
-                        top:-10px;
-                        right:-10px
-
-                    }
-
-                    .coupon-dot3{
-
-                        position: absolute;
-                        width:20px;
-                        height: 20px;
-                        background:#fff;
-                        border-radius: 50%;
-                        bottom:-10px;
-                        right:-10px;
-
-                    }
 
                 }
 
@@ -3078,6 +3158,23 @@
             .receive-more{
 
                 text-align: center;
+                display:flex;
+                
+                div{
+
+                    width: 60px;
+                    display:flex;
+                    align-items: center;
+
+                }
+
+                .read-icon{
+
+                    font-size: 30px;
+                    margin:0 10px;
+                    // display:none;
+
+                }
 
                 .button{
 
